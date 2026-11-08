@@ -19,11 +19,13 @@ export default defineConfig({
     siteTitle: 'Taller IA-DRO',
 
     nav: [
-      { text: 'Inicio', link: '/' },
-      { text: 'Programa', link: '/programa' },
-      { text: 'Actividades', link: '/actividades/' },
-      { text: 'Recursos', link: '/recursos/' }
+    { text: 'Inicio', link: '/' },
+    { text: 'Programa', link: '/programa' },
+    { text: 'Presentación', link: '/presentacion/index.html', target: '_self' },
+    { text: 'Actividades', link: '/actividades/' },
+    { text: 'Recursos', link: '/recursos/' }
     ],
+
 
     sidebar: [
       {
