@@ -1,0 +1,23 @@
+
+# Dependencias
+node_modules/
+
+# Compilación VitePress
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+
+# Compilación Slidev
+slides/dist/
+
+# Archivos temporales
+.DS_Store
+*.log
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Editores
+.vscode/
+.idea/
