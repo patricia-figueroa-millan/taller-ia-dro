@@ -9,6 +9,9 @@ docs/.vitepress/cache/
 # Compilación Slidev
 slides/dist/
 
+# Compilación conjunta
+dist/
+
 # Archivos temporales
 .DS_Store
 *.log
