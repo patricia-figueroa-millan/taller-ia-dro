@@ -1,16 +1,21 @@
-
 {
   "name": "taller-ia-dro",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Portal del taller Inteligencia Artificial aplicada a la Arquitectura y a la práctica profesional del DRO",
+  "description": "Portal del Taller IA-DRO",
+  
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "slides:dev": "slidev slides/slides.md",
+    "slides:build": "slidev build slides/slides.md --base /presentacion/ --out dist/presentacion",
+    "build": "npm run slides:build && npm run docs:build && mkdir -p docs/.vitepress/dist/presentacion && cp -R slides/dist/presentacion/. docs/.vitepress/dist/presentacion/"
   },
   "devDependencies": {
+    "@slidev/cli": "52.20.1",
+    "@slidev/theme-default": "0.25.0",
     "vitepress": "^1.6.4",
     "vue": "^3.5.13"
   }
