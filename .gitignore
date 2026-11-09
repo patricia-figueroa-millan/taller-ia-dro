@@ -24,3 +24,9 @@ dist/
 # Editores
 .vscode/
 .idea/
+
+# Respaldos privados
+/respaldos-privados/
+
+# Respaldo local de Slidev
+/slides/slides.respaldo.md
