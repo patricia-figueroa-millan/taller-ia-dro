@@ -784,14 +784,14 @@ layout: default
 
 # ChatGPT: dos alternativas con el mismo prompt
 
-<div class="grid grid-cols-3 gap-5 mt-5 items-start">
+<div class="grid grid-cols-3 gap-5 mt-3 items-start">
 
 <div>
 
 <img
   :src="`/imagenes/modulo-1/fachada-referencia.jpg`"
   alt="Imagen A"
-  class="h-75 mx-auto rounded-lg"
+  class="h-60 mx-auto rounded-lg"
 />
 
 <p class="text-center text-sm mt-2">A · Referencia</p>
@@ -803,7 +803,7 @@ layout: default
 <img
   :src="`/imagenes/modulo-1/fachada-chatgpt-b1.png`"
   alt="Alternativa B1 de ChatGPT"
-  class="h-75 mx-auto rounded-lg"
+  class="h-60 mx-auto rounded-lg"
 />
 
 <p class="text-center text-sm mt-2">B1 · ChatGPT</p>
@@ -815,7 +815,7 @@ layout: default
 <img
   :src="`/imagenes/modulo-1/fachada-chatgpt-b2.png`"
   alt="Alternativa B2 de ChatGPT"
-  class="h-75 mx-auto rounded-lg"
+  class="h-60 mx-auto rounded-lg"
 />
 
 <p class="text-center text-sm mt-2">B2 · ChatGPT</p>
@@ -824,7 +824,7 @@ layout: default
 
 </div>
 
-<div class="mt-5 p-4 rounded-lg bg-blue-500/10">
+<div class="mt-3 p-3 rounded-lg bg-blue-500/10">
 
 **Observa:** revestimientos de piedra, luminarias añadidas y variaciones en patio, cubiertas y cancelería.
 
@@ -857,14 +857,14 @@ layout: default
 
 # Gemini: alternativa generada
 
-<div class="grid grid-cols-2 gap-8 mt-5 items-start">
+<div class="grid grid-cols-2 gap-8 mt-3 items-start">
 
 <div>
 
 <img
   :src="`/imagenes/modulo-1/fachada-referencia.jpg`"
   alt="Imagen A"
-  class="h-85 mx-auto rounded-lg"
+  class="h-65 mx-auto rounded-lg"
 />
 
 <p class="text-center text-sm mt-2">A · Referencia</p>
@@ -876,7 +876,7 @@ layout: default
 <img
   :src="`/imagenes/modulo-1/fachada-gemini-c.jpg`"
   alt="Alternativa C de Gemini"
-  class="h-85 mx-auto rounded-lg"
+  class="h-65 mx-auto rounded-lg"
 />
 
 <p class="text-center text-sm mt-2">C · Gemini</p>
@@ -885,7 +885,7 @@ layout: default
 
 </div>
 
-<div class="mt-4 p-4 rounded-lg bg-blue-500/10">
+<div class="mt-3 p-3 rounded-lg bg-blue-500/10">
 
 **Observa:** composición general relativamente conservada, cambios en pavimento y ausencia de piedra natural claramente identificable.
 
@@ -918,7 +918,7 @@ layout: default
 
 # ¿Qué aprendimos de la comparación?
 
-<div class="mt-5">
+<div class="mt-2 text-sm">
 
 | Criterio | ChatGPT B1 | ChatGPT B2 | Gemini C |
 |---|---|---|---|
@@ -931,13 +931,13 @@ layout: default
 
 </div>
 
-<div class="mt-6 text-center text-xl font-semibold">
+<div class="mt-3 text-center text-lg font-semibold">
 
 Ninguna alternativa cumplió íntegramente todas las restricciones.
 
 </div>
 
-<div class="mt-5 p-4 rounded-xl bg-blue-500/10 text-center text-2xl font-bold">
+<div class="mt-3 p-3 rounded-xl bg-blue-500/10 text-center text-xl font-bold">
 
 IA propone → Profesional verifica → Profesional decide
 
