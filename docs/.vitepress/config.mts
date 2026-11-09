@@ -26,13 +26,22 @@ export default defineConfig({
     { text: 'Recursos', link: '/recursos/' }
     ],
 
-
     sidebar: [
       {
         text: 'Taller IA-DRO',
         items: [
           { text: 'Inicio', link: '/' },
           { text: 'Programa del taller', link: '/programa' }
+        ]
+      },
+      {
+        text: 'Módulos del taller',
+        items: [
+          { text: 'Índice de módulos', link: '/modulos/' },
+          {
+            text: 'Módulo 1. Fundamentos de IA',
+            link: '/modulos/modulo-1'
+          }
         ]
       },
       {
