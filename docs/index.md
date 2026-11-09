@@ -1,11 +1,10 @@
-
 ---
 layout: home
 
 hero:
   name: "Taller IA-DRO"
-  text: "Inteligencia Artificial aplicada a la Arquitectura"
-  tagline: "Aplicaciones prácticas de IA para arquitectos y Directores Responsables de Obra"
+  text: "Inteligencia Artificial aplicada a la Arquitectura y a la práctica profesional del DRO"
+  tagline: "Taller demostrativo-participativo de inteligencia artificial generativa y multimodal"
   actions:
     - theme: brand
       text: "Explorar el programa"

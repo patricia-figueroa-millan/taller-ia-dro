@@ -61,8 +61,8 @@ export default defineConfig({
     ],
 
     footer: {
-      message: 'Material académico para actualización profesional',
-      copyright: 'Taller IA-DRO'
+      message: 'Taller | Inteligencia Artificial aplicada a la Arquitectura y a la práctica profesional del DRO.',
+      copyright: '© 2026 Derechos Reservados · Dra. Patricia Elizabeth Figueroa Millán · Instituto Tecnológico de Colima · División de Estudios de Posgrado e Investigación.'
     },
 
     search: {
