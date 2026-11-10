@@ -1757,3 +1757,115 @@ Aspectos identificados durante la prueba:
 ### La IA identifica y organiza; el DRO verifica y decide.
 
 **Siguiente módulo:** supervisión multimodal con planos y fotografías de obra.
+
+
+---
+layout: section
+---
+
+# Módulo 4
+## Supervisión multimodal: planos y fotografías
+
+**25 minutos · Proyecto A-1**
+
+La IA puede apoyar el contraste entre lo documentado y lo visible durante el proceso constructivo.
+
+---
+
+# Caso A-1 · ¿Qué información tenemos?
+
+- Plano arquitectónico.
+- Plano estructural de cimentación.
+- Plano estructural de losas de planta baja y planta alta.
+- Fotografías del proceso constructivo.
+
+**Enfoque:** losa de planta baja / sistema de cimentación.
+
+La correspondencia entre cada fotografía y un detalle del plano debe verificarse; no se presupone.
+
+---
+
+# De los planos a la evidencia visual
+
+<div class="grid grid-cols-2 gap-6 mt-8">
+  <div class="p-5 rounded-xl bg-blue-100 dark:bg-blue-900">
+    <div class="text-xl font-bold mb-3">DOCUMENTACIÓN</div>
+    Plano estructural de cimentación:
+    - Planta de losa de planta baja.
+    - Sección tipo de losa de cimentación.
+    - Detalles y elementos estructurales.
+  </div>
+  <div class="p-5 rounded-xl bg-green-100 dark:bg-green-900">
+    <div class="text-xl font-bold mb-3">EVIDENCIA VISUAL</div>
+    Fotografías A-1:
+    - Acero de refuerzo visible.
+    - Elementos perimetrales.
+    - Conducciones visibles.
+    - Preparación previa al colado.
+  </div>
+</div>
+
+---
+
+# Demostración · Análisis multimodal
+
+**1. Adjuntar** los tres planos y cuatro fotografías seleccionadas.
+
+**2. Ejecutar** el prompt profesional multimodal disponible en VitePress.
+
+**3. Examinar** la descripción de cada fotografía.
+
+**4. Contrastar** lo visible con lo indicado en los planos.
+
+**5. Identificar** verificaciones y evidencias adicionales.
+
+**Producto:** matriz de contraste documental-visual.
+
+---
+
+# ¿Qué puede y qué no puede comprobar la IA?
+
+<div class="grid grid-cols-2 gap-6 mt-8">
+  <div class="p-5 rounded-xl bg-green-100 dark:bg-green-900">
+    **Puede apoyar**
+    - Describir elementos visibles.
+    - Localizar detalles en planos.
+    - Proponer correspondencias.
+    - Identificar información faltante.
+    - Organizar verificaciones.
+  </div>
+  <div class="p-5 rounded-xl bg-orange-100 dark:bg-orange-900">
+    **No puede confirmar por sí sola**
+    - Diámetros o separaciones exactas.
+    - Recubrimientos reales.
+    - Calidad o resistencia del concreto.
+    - Elementos ocultos.
+    - Cumplimiento estructural.
+  </div>
+</div>
+
+---
+
+# Evaluación profesional
+
+1. ¿Qué información del plano puede identificarse realmente en las fotografías?
+2. ¿Qué características requieren medición?
+3. ¿Qué elementos ya no podrían verificarse después del colado?
+4. ¿Qué evidencia adicional solicitaría el DRO?
+
+**Una observación visual no equivale a una comprobación técnica.**
+
+---
+
+# Cierre del taller
+
+<div class="text-2xl text-center mt-10 font-semibold">
+  IA analiza y propone.
+</div>
+<div class="text-2xl text-center mt-4 font-semibold">
+  El profesional verifica y decide.
+</div>
+
+<div class="mt-10 text-center text-lg">
+  La IA amplía la capacidad de análisis; no transfiere la responsabilidad profesional.
+</div>

@@ -38,14 +38,10 @@ export default defineConfig({
         text: 'Módulos del taller',
         items: [
           { text: 'Índice de módulos', link: '/modulos/' },
-          {
-            text: 'Módulo 1. Fundamentos de IA',
-            link: '/modulos/modulo-1'
-          },
-          {
-            text: 'Módulo 2. Ingeniería de prompts',
-            link: '/modulos/modulo-2'
-          },
+          { text: 'Módulo 1. Fundamentos de IA', link: '/modulos/modulo-1' },
+          { text: 'Módulo 2. Ingeniería de prompts', link: '/modulos/modulo-2' },
+          { text: 'Módulo 3. Revisión documental y normativa', link: '/modulos/modulo-3' },
+          { text: 'Módulo 4. Supervisión multimodal de obra', link: '/modulos/modulo-4' },
         ]
       },
       {
