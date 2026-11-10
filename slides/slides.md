@@ -77,6 +77,41 @@ La inteligencia artificial apoya el trabajo profesional.
 **No sustituye el criterio técnico ni la responsabilidad del DRO.**
 
 ---
+
+# Acceso rápido · Prompts de las cuatro experiencias
+
+<div class="grid grid-cols-2 gap-6 mt-8">
+  <div class="p-5 rounded-xl border border-blue-400">
+    <div class="font-bold text-lg mb-3">Módulo 1 · Fachada</div>
+    <p class="text-sm mb-4">Imagen de referencia; materiales y acabados con restricciones arquitectónicas.</p>
+    <a href="https://ia-dro.elizabethfigueroa.com/modulos/modulo-1" target="_blank" rel="noopener noreferrer" class="inline-block px-5 py-3 rounded-lg border border-blue-400 text-blue-600 dark:text-blue-300 font-semibold">↗ Abrir prompt visual</a>
+  </div>
+  <div class="p-5 rounded-xl border border-blue-400">
+    <div class="font-bold text-lg mb-3">Módulo 2 · Diseño y DRO</div>
+    <p class="text-sm mb-4">Prompt de renovación; B1, B2, B3 y plantilla participativa.</p>
+    <a href="https://ia-dro.elizabethfigueroa.com/modulos/modulo-2" target="_blank" rel="noopener noreferrer" class="inline-block px-5 py-3 rounded-lg border border-blue-400 text-blue-600 dark:text-blue-300 font-semibold">↗ Abrir prompts y plantilla</a>
+  </div>
+  <div class="p-5 rounded-xl border border-blue-400">
+    <div class="font-bold text-lg mb-3">Módulo 3 · Documentos y norma</div>
+    <p class="text-sm mb-4">Prompt 1: matriz preliminar. Prompt 2: verificación específica.</p>
+    <a href="https://ia-dro.elizabethfigueroa.com/modulos/modulo-3" target="_blank" rel="noopener noreferrer" class="inline-block px-5 py-3 rounded-lg border border-blue-400 text-blue-600 dark:text-blue-300 font-semibold">↗ Abrir prompts 1 y 2</a>
+  </div>
+  <div class="p-5 rounded-xl border border-blue-400">
+    <div class="font-bold text-lg mb-3">Módulo 4 · Supervisión multimodal</div>
+    <p class="text-sm mb-4">Un plano PDF de A1 y cuatro fotografías del proceso constructivo.</p>
+    <a href="https://ia-dro.elizabethfigueroa.com/modulos/modulo-4" target="_blank" rel="noopener noreferrer" class="inline-block px-5 py-3 rounded-lg border border-blue-400 text-blue-600 dark:text-blue-300 font-semibold">↗ Abrir prompt A1</a>
+  </div>
+</div>
+
+<div class="mt-5 text-sm opacity-70 text-center">Los enlaces abren VitePress en otra pestaña. Los archivos técnicos se adjuntan desde el kit local del taller.</div>
+
+<!--
+Diapositiva de consulta rápida. Los enlaces llevan a las páginas de recursos, sin depender de identificadores de sección no verificados.
+-->
+
+
+
+---
 layout: section
 ---
 
@@ -735,6 +770,8 @@ layout: default
   El prompt íntegro está disponible en VitePress, módulo 1.
 </div>
 
+<div class="mt-3 text-center"><a href="https://ia-dro.elizabethfigueroa.com/modulos/modulo-1" target="_blank" rel="noopener noreferrer" class="inline-block px-5 py-3 rounded-lg border border-blue-400 text-blue-600 dark:text-blue-300 font-semibold">↗ Abrir prompt íntegro · Módulo 1</a></div>
+
 <!--
 DIAPOSITIVA 15 — DURACIÓN: 30 segundos
 
@@ -780,6 +817,38 @@ Durante la exposición, destacar especialmente las restricciones.
 
 ---
 layout: default
+---
+
+# Ejecución del prompt · Una prueba controlada
+
+<div class="grid grid-cols-2 gap-6 mt-7">
+<div class="p-5 rounded-xl bg-blue-500/10">
+<h3 class="text-lg font-semibold mb-2">Entradas e instrucciones</h3>
+<ol class="list-decimal pl-5 text-base leading-snug space-y-1">
+<li>Abrir ChatGPT y adjuntar la fotografía A.</li>
+<li>Copiar el <strong>mismo prompt íntegro</strong>.</li>
+<li>Generar B1 y repetir sin modificar el prompt para obtener B2.</li>
+<li>Usar el mismo texto e imagen en Gemini para generar C.</li>
+</ol>
+</div>
+<div class="p-5 rounded-xl bg-green-500/10">
+<h3 class="text-lg font-semibold mb-2">¿Qué vamos a comprobar?</h3>
+<ul class="list-disc pl-5 text-base leading-snug space-y-1">
+<li>Materiales solicitados.</li>
+<li>Geometría de arcos, cubiertas y aberturas.</li>
+<li>Elementos agregados o eliminados.</li>
+<li>Conservación de encuadre y patio.</li>
+</ul>
+</div>
+</div>
+<div class="mt-5 text-center"><a href="https://ia-dro.elizabethfigueroa.com/modulos/modulo-1" target="_blank" rel="noopener noreferrer" class="inline-block px-4 py-2 rounded-lg border border-blue-400 text-blue-700 dark:text-blue-300 font-semibold">↗ Consultar y copiar el prompt completo</a></div>
+<div class="mt-4 text-sm text-center opacity-70">Se comparan tres resultados concretos, no el rendimiento general de las plataformas.</div>
+
+<!--
+NOTAS PARA LA INSTRUCTORA
+Explicar por qué se conserva la fotografía y el texto de instrucciones. Aclarar que incluso con el mismo prompt hay variabilidad en los resultados. Abrir el prompt desde el enlace antes de mostrar las imágenes; comprobar que la página contiene el texto íntegro. Si no se dispone de acceso, el prompt está transcrito en las notas de la diapositiva anterior.
+-->
+
 ---
 
 # ChatGPT: dos alternativas con el mismo prompt
@@ -914,6 +983,38 @@ No extrapolar estos resultados al desempeño general de Gemini.
 
 ---
 layout: default
+---
+
+# Lectura crítica · ¿Qué cumplió cada alternativa?
+
+<div class="grid grid-cols-3 gap-4 mt-7">
+<div class="p-4 rounded-xl bg-blue-500/10">
+### B1 · ChatGPT
+**Sí:** incorpora piedra y acabados contemporáneos.
+
+**Revisar:** luminaria añadida y variaciones aparentes de elementos existentes.
+</div>
+<div class="p-4 rounded-xl bg-blue-500/10">
+### B2 · ChatGPT
+**Sí:** mayor presencia de piedra.
+
+**Revisar:** luminarias y cambios en patio, cubierta o cancelería.
+</div>
+<div class="p-4 rounded-xl bg-green-500/10">
+### C · Gemini
+**Sí:** composición general relativamente conservada.
+
+**Revisar:** piedra poco identificable y cambios de pavimento o marco posterior.
+</div>
+</div>
+<div class="mt-6 p-4 border rounded-lg text-center text-lg">**Pregunta al grupo:** ¿qué cambios están autorizados por el prompt y cuáles requieren corrección?</div>
+<div class="mt-3 text-sm opacity-70 text-center">Las diferencias son apreciaciones visuales; no se verificaron medidas geométricas.</div>
+
+<!--
+NOTAS PARA LA INSTRUCTORA
+Recuperar primero las restricciones del prompt. Pedir que señalen un cambio permitido y uno no solicitado. La piedra fue solicitada; la adición de luminarias no estaba autorizada en el primer prompt. No confundir una imagen atractiva con cumplimiento del encargo. Enlazar con la tabla resumen siguiente.
+-->
+
 ---
 
 # ¿Qué aprendimos de la comparación?
@@ -1179,6 +1280,8 @@ una respuesta correcta.
   Mayor libertad estética, sin modificar la arquitectura esencial.
 </div>
 
+<div class="mt-5 text-center"><a href="https://ia-dro.elizabethfigueroa.com/modulos/modulo-2" target="_blank" rel="noopener noreferrer" class="inline-block px-5 py-3 rounded-lg border border-blue-400 text-blue-600 dark:text-blue-300 font-semibold">↗ Consultar prompt visual profesional · Módulo 2</a></div>
+
 <!--
 DIAPOSITIVA 22 — DURACIÓN: 1 minuto
 
@@ -1199,6 +1302,37 @@ Aclarar que una mayor transformación visual
 no necesariamente significa que el prompt sea mejor.
 
 El alcance de la intervención también cambió.
+-->
+
+---
+
+# Experiencia A · Prompt profesional y ejecución
+
+<div class="grid grid-cols-2 gap-6 mt-6">
+<div class="p-5 rounded-xl bg-blue-500/10">
+<h3 class="text-lg font-semibold mb-2">Qué cambia frente al módulo 1</h3>
+<ul class="list-disc pl-5 text-base leading-snug space-y-1">
+<li>Se amplía el alcance: pavimentos, iluminación, mobiliario y paisajismo.</li>
+<li>Se mantienen restricciones sobre geometría y elementos permanentes.</li>
+<li>Se solicita una propuesta contemporánea cálida y arquitectónicamente plausible.</li>
+</ul>
+</div>
+<div class="p-5 rounded-xl bg-green-500/10">
+<h3 class="text-lg font-semibold mb-2">Cómo se realiza</h3>
+<ol class="list-decimal pl-5 text-base leading-snug space-y-1">
+<li>Adjuntar la misma imagen de referencia.</li>
+<li>Abrir y copiar el prompt profesional.</li>
+<li>Ejecutarlo en Gemini.</li>
+<li>Contrastar la nueva imagen D con A y C.</li>
+</ol>
+</div>
+</div>
+<div class="mt-6 text-center"><a href="https://ia-dro.elizabethfigueroa.com/modulos/modulo-2" target="_blank" rel="noopener noreferrer" class="inline-block px-4 py-2 rounded-lg border border-blue-400 text-blue-700 dark:text-blue-300 font-semibold">↗ Abrir prompt profesional de renovación</a></div>
+<div class="mt-4 text-sm text-center opacity-70">Cambian tanto el alcance como la estructura del prompt: no es una prueba causal aislada.</div>
+
+<!--
+NOTAS PARA LA INSTRUCTORA
+Mostrar dónde están el rol, contexto, objetivo, tareas, entradas, restricciones y formato. No atribuir una mayor transformación únicamente a la calidad de la redacción: el alcance de la solicitud es distinto. Confirmar que la imagen D corresponde al resultado real preparado.
 -->
 
 ---
@@ -1286,6 +1420,36 @@ La siguiente experiencia aplica la ingeniería de prompts a una tarea profesiona
 
 ---
 
+# Experiencia A · Evaluación técnica de la propuesta
+
+<div class="grid grid-cols-2 gap-6 mt-8">
+<div class="p-5 rounded-xl bg-green-500/10">
+<h3 class="text-lg font-semibold mb-2">Valor de la IA</h3>
+<ul class="list-disc pl-5 text-base leading-snug space-y-1">
+<li>Explora rápidamente materiales y ambientes.</li>
+<li>Ayuda a comunicar opciones de diseño.</li>
+<li>Permite discutir preferencias con el cliente.</li>
+</ul>
+</div>
+<div class="p-5 rounded-xl bg-orange-500/10">
+<h3 class="text-lg font-semibold mb-2">Validación del arquitecto</h3>
+<ul class="list-disc pl-5 text-base leading-snug space-y-1">
+<li>Geometría de arcos y cubiertas.</li>
+<li>Puertas, ventanas y cancelería.</li>
+<li>Factibilidad de acabados e instalaciones.</li>
+<li>Presupuesto, mantenimiento y normativa aplicable.</li>
+</ul>
+</div>
+</div>
+<div class="mt-7 p-4 border rounded-lg text-center text-lg">**Discusión:** ¿qué tendría que comprobarse antes de convertir la imagen en una propuesta ejecutable?</div>
+
+<!--
+NOTAS PARA LA INSTRUCTORA
+Invitar a distinguir visualización conceptual de proyecto ejecutivo. Una imagen generada no aporta por sí sola detalles constructivos, costos ni autorización para intervenir elementos existentes. Retomar las observaciones de la diapositiva anterior sobre Gemini C y D.
+-->
+
+---
+
 # Experiencia B · DRO
 
 ## Del documento al instrumento de supervisión
@@ -1358,6 +1522,40 @@ y autorizados para su uso.
 
 ---
 
+# Experiencia B · Preparación y trazabilidad
+
+<div class="grid grid-cols-2 gap-6 mt-7">
+<div class="p-5 rounded-xl bg-blue-500/10">
+<h3 class="text-lg font-semibold mb-2">Entradas idénticas para B1, B2 y B3</h3>
+<ul class="list-disc pl-5 text-base leading-snug space-y-1">
+<li>Plano estructural y notas.</li>
+<li>Extracto de memoria de cálculo.</li>
+<li>Portada y folios de bitácora.</li>
+<li><strong>12 archivos del caso B</strong>, según la prueba documentada.</li>
+</ul>
+</div>
+<div class="p-5 rounded-xl bg-green-500/10">
+<h3 class="text-lg font-semibold mb-2">Producto solicitado</h3>
+<p class="text-base leading-snug mb-1"><strong>Lista preliminar de verificación</strong> con:</p>
+<ul class="list-disc pl-5 text-base leading-snug space-y-1">
+<li>Requisito o elemento.</li>
+<li>Fuente documental.</li>
+<li>Acción de supervisión.</li>
+<li>Evidencia necesaria.</li>
+<li>Estado: pendiente / verificable.</li>
+</ul>
+</div>
+</div>
+<div class="mt-5 text-center"><a href="https://ia-dro.elizabethfigueroa.com/modulos/modulo-2" target="_blank" rel="noopener noreferrer" class="inline-block px-4 py-2 rounded-lg border border-blue-400 text-blue-700 dark:text-blue-300 font-semibold">↗ Abrir prompts B1, B2 y B3</a></div>
+<div class="mt-4 text-sm text-center opacity-70">No utilizar la lista como certificación de cumplimiento.</div>
+
+<!--
+NOTAS PARA LA INSTRUCTORA
+Mostrar qué documentos se adjuntaron y explicar por qué los tres niveles deben recibir los mismos archivos. Los resultados que siguen corresponden a pruebas ya realizadas. Revisar los nombres exactos de archivos en el kit antes de la sesión.
+-->
+
+---
+
 # Tres niveles de prompts
 
 <div class="grid grid-cols-3 gap-5 mt-8">
@@ -1387,6 +1585,8 @@ y autorizados para su uso.
   Los resultados requieren verificación documental y criterio profesional.
 </div>
 
+<div class="mt-5 text-center"><a href="https://ia-dro.elizabethfigueroa.com/modulos/modulo-2" target="_blank" rel="noopener noreferrer" class="inline-block px-5 py-3 rounded-lg border border-blue-400 text-blue-600 dark:text-blue-300 font-semibold">↗ Abrir prompts B1, B2 y B3 · Módulo 2</a></div>
+
 <!--
 DIAPOSITIVA 25 — DURACIÓN: 1 minuto
 
@@ -1407,6 +1607,38 @@ No afirmar anticipadamente que un nivel
 produce necesariamente mejores resultados.
 
 Los resultados reales están pendientes.
+-->
+
+---
+
+# B1, B2 y B3 · Cómo ejecutar y comparar
+
+<div class="grid grid-cols-3 gap-4 mt-7">
+<div class="p-4 rounded-xl bg-gray-100 dark:bg-gray-800">
+### B1 · Básico
+Solicitud abierta: «Revisa los documentos y genera una lista de aspectos a verificar».
+
+**Observar:** extensión y generalidad.
+</div>
+<div class="p-4 rounded-xl bg-blue-500/10">
+### B2 · Estructurado
+Definir tarea, fuentes, restricciones y formato.
+
+**Observar:** orden y referencias.
+</div>
+<div class="p-4 rounded-xl bg-green-500/10">
+### B3 · Profesional
+Incluir los ocho componentes y criterios de calidad.
+
+**Observar:** priorización, trazabilidad e incertidumbre.
+</div>
+</div>
+<div class="mt-6 text-center"><a href="https://ia-dro.elizabethfigueroa.com/modulos/modulo-2" target="_blank" rel="noopener noreferrer" class="inline-block px-4 py-2 rounded-lg border border-blue-400 text-blue-700 dark:text-blue-300 font-semibold">↗ Copiar textos íntegros de B1, B2 y B3</a></div>
+<div class="mt-3 text-center text-sm opacity-70">Ejecutar cada nivel con los mismos 12 archivos, en conversaciones independientes.</div>
+
+<!--
+NOTAS PARA LA INSTRUCTORA
+Abrir los textos íntegros en VitePress y explicar qué cambia entre niveles. Evitar afirmar que B3 será necesariamente más preciso. En el taller se pueden mostrar las respuestas reales ya preparadas para evitar demoras.
 -->
 
 ---
@@ -1448,6 +1680,38 @@ Los resultados reales están pendientes.
 
 ---
 
+# ¿Qué nos dicen los resultados B1, B2 y B3?
+
+<div class="grid grid-cols-2 gap-6 mt-8">
+<div class="p-5 rounded-xl bg-blue-500/10">
+<h3 class="text-lg font-semibold mb-2">Diferencias observadas</h3>
+<ul class="list-disc pl-5 text-base leading-snug space-y-1">
+<li>B1: <strong>53</strong> puntos en 7 áreas.</li>
+<li>B2: <strong>33</strong> puntos en 5 áreas.</li>
+<li>B3: <strong>12</strong> puntos priorizados con referencias.</li>
+</ul>
+<p class="text-base leading-snug mb-1">La extensión disminuye, pero eso no prueba exactitud.</p>
+</div>
+<div class="p-5 rounded-xl bg-orange-500/10">
+<h3 class="text-lg font-semibold mb-2">Qué debe evaluar el DRO</h3>
+<ul class="list-disc pl-5 text-base leading-snug space-y-1">
+<li>¿Cada punto corresponde a una fuente real?</li>
+<li>¿La referencia es localizable?</li>
+<li>¿Hay requisitos omitidos o inventados?</li>
+<li>¿Se reconoce la ambigüedad manuscrita?</li>
+<li>¿La lista permite preparar una visita?</li>
+</ul>
+</div>
+</div>
+<div class="mt-7 p-4 border rounded-lg text-center text-lg">**Pregunta:** ¿preferirían 53 puntos genéricos o 12 trazables? ¿Qué información falta para decidir?</div>
+
+<!--
+NOTAS PARA LA INSTRUCTORA
+Usar la comparación como resultado descriptivo, no como calificación automática. Enfatizar que menos puntos puede significar priorización o pérdida de cobertura. El folio 0005 mostrará enseguida por qué la trazabilidad aparente tampoco garantiza una lectura correcta.
+-->
+
+---
+
 # B3 · ¿Qué sucede cuando la IA interpreta mal?
 
 <div class="grid grid-cols-2 gap-6 mt-8">
@@ -1482,6 +1746,34 @@ Los resultados reales están pendientes.
 <div class="mt-5 text-center text-lg">
   ¿Cómo modificaríamos el prompt para detectar y gestionar esta incertidumbre?
 </div>
+
+---
+
+# Folio 0005 · De la ambigüedad a una instrucción verificable
+
+<div class="grid grid-cols-2 gap-6 mt-7">
+<div class="p-5 rounded-xl bg-orange-500/10">
+<h3 class="text-lg font-semibold mb-2">Riesgo detectado</h3>
+<p class="text-base leading-snug mb-1">Una misma anotación manuscrita fue interpretada de formas distintas: como referencia a un castillo y como posible especificación de losa maciza.</p>
+<p class="text-base leading-snug mb-1"><strong>No debemos escoger una interpretación por intuición.</strong></p>
+</div>
+<div class="p-5 rounded-xl bg-green-500/10">
+<h3 class="text-lg font-semibold mb-2">Mejora que propondrá el grupo</h3>
+<ul class="list-disc pl-5 text-base leading-snug space-y-1">
+<li>Transcribir literalmente antes de interpretar.</li>
+<li>Señalar ilegibilidad o incertidumbre.</li>
+<li>Contrastar con plano y memoria.</li>
+<li>Citar folio y ubicación.</li>
+<li>Declarar «pendiente de verificación» si falta evidencia.</li>
+</ul>
+</div>
+</div>
+<div class="mt-6 text-center"><a href="https://ia-dro.elizabethfigueroa.com/modulos/modulo-2" target="_blank" rel="noopener noreferrer" class="inline-block px-4 py-2 rounded-lg border border-blue-400 text-blue-700 dark:text-blue-300 font-semibold">↗ Abrir plantilla participativa de mejora de B3</a></div>
+
+<!--
+NOTAS PARA LA INSTRUCTORA
+Presentar la discrepancia como caso para debatir, no como afirmación de qué elemento constructivo describe realmente el folio. Pedir dos propuestas de validación y pasar a la actividad colectiva de cinco minutos.
+-->
 
 ---
 
@@ -1533,6 +1825,8 @@ Los resultados reales están pendientes.
 <div class="mt-4 text-center text-sm opacity-70">
   Demostración guiada desde la computadora del instructor.
 </div>
+
+<div class="mt-4 text-center"><a href="https://ia-dro.elizabethfigueroa.com/modulos/modulo-2" target="_blank" rel="noopener noreferrer" class="inline-block px-5 py-3 rounded-lg border border-blue-400 text-blue-600 dark:text-blue-300 font-semibold">↗ Abrir plantilla interactiva para mejorar B3</a></div>
 
 <!--
 ACTIVIDAD PARTICIPATIVA — DURACIÓN: 5 minutos
@@ -1695,6 +1989,34 @@ De los documentos a las decisiones de verificación.
 
 ---
 
+# Módulo 3 · Preparar la revisión documental
+
+<div class="grid grid-cols-2 gap-6 mt-7">
+<div class="p-5 rounded-xl bg-blue-500/10">
+<h3 class="text-lg font-semibold mb-2">Paquete de entrada</h3>
+<p class="text-base leading-snug mb-1"><strong>Caso B:</strong> 12 imágenes de planos, memoria y bitácora, más 1 documento Word con el reglamento municipal usado en la prueba.</p>
+<p class="text-base leading-snug mb-1"><strong>Antes de ejecutar:</strong> confirmar legibilidad, procedencia y versión normativa.</p>
+</div>
+<div class="p-5 rounded-xl bg-green-500/10">
+<h3 class="text-lg font-semibold mb-2">Reglas de análisis</h3>
+<ul class="list-disc pl-5 text-base leading-snug space-y-1">
+<li>Separar dato documental de inferencia.</li>
+<li>Referenciar archivo, página o folio.</li>
+<li>No inventar artículos ni requisitos.</li>
+<li>Indicar información faltante.</li>
+<li>No dictaminar cumplimiento.</li>
+</ul>
+</div>
+</div>
+<div class="mt-6 text-center"><a href="https://ia-dro.elizabethfigueroa.com/modulos/modulo-3" target="_blank" rel="noopener noreferrer" class="inline-block px-4 py-2 rounded-lg border border-blue-400 text-blue-700 dark:text-blue-300 font-semibold">↗ Abrir prompts y materiales del módulo 3</a></div>
+
+<!--
+NOTAS PARA LA INSTRUCTORA
+Señalar que el reglamento aportado declara reformas hasta octubre de 2022 y que debe verificarse su vigencia antes de usarlo en un caso real. El análisis es didáctico y no constituye dictamen.
+-->
+
+---
+
 # Demostración 1 · Revisión integral
 
 ## Identificar y priorizar
@@ -1709,7 +2031,36 @@ Aspectos identificados durante la prueba:
 4. Criterios de análisis estructural.
 5. Correspondencia entre ejecución y diseño.
 
-**Instructor:** ejecutar el prompt 1 disponible en VitePress.
+<a href="https://ia-dro.elizabethfigueroa.com/modulos/modulo-3" target="_blank" rel="noopener noreferrer" class="inline-block px-5 py-3 rounded-lg border border-blue-400 text-blue-600 dark:text-blue-300 font-semibold">↗ Abrir prompt 1 · Revisión integral</a>
+
+**Secuencia:** abrir ChatGPT → adjuntar 12 imágenes y reglamento Word → copiar el prompt 1 → ejecutar → examinar la matriz.
+
+---
+
+# Demostración 1 · ¿Cómo interpretar la matriz?
+
+<div class="grid grid-cols-2 gap-6 mt-7">
+<div class="p-5 rounded-xl bg-blue-500/10">
+<h3 class="text-lg font-semibold mb-2">Ejecución</h3>
+<ol class="list-decimal pl-5 text-base leading-snug space-y-1">
+<li>Adjuntar los 13 archivos.</li>
+<li>Abrir y ejecutar <strong>Prompt 1</strong>.</li>
+<li>Pedir matriz con tema, evidencia, fuente y verificación pendiente.</li>
+<li>Revisar cada referencia en el documento original.</li>
+</ol>
+</div>
+<div class="p-5 rounded-xl bg-orange-500/10">
+<h3 class="text-lg font-semibold mb-2">Lectura crítica</h3>
+<p class="text-base leading-snug mb-1">Los temas identificados incluyen autorización, registro de supervisión, concreto, análisis estructural y correspondencia diseño–ejecución.</p>
+<p class="text-base leading-snug mb-1"><strong>Pregunta:</strong> ¿cuál tiene evidencia directa y cuál es solo una alerta?</p>
+</div>
+</div>
+<div class="mt-6 text-center"><a href="https://ia-dro.elizabethfigueroa.com/modulos/modulo-3" target="_blank" rel="noopener noreferrer" class="inline-block px-4 py-2 rounded-lg border border-blue-400 text-blue-700 dark:text-blue-300 font-semibold">↗ Consultar Prompt 1 completo</a></div>
+
+<!--
+NOTAS PARA LA INSTRUCTORA
+Distinguir una matriz preliminar de una auditoría normativa. Elegir el tema de resistencia del concreto para profundizar con el segundo prompt. No declarar que los cinco temas son incumplimientos.
+-->
 
 ---
 
@@ -1728,7 +2079,36 @@ Aspectos identificados durante la prueba:
 
 **Una diferencia aparente no constituye automáticamente un incumplimiento.**
 
-**Instructor:** ejecutar el prompt 2 en la misma conversación.
+<a href="https://ia-dro.elizabethfigueroa.com/modulos/modulo-3" target="_blank" rel="noopener noreferrer" class="inline-block px-5 py-3 rounded-lg border border-blue-400 text-blue-600 dark:text-blue-300 font-semibold">↗ Abrir prompt 2 · Verificación específica</a>
+
+**Secuencia:** conservar la conversación y los 13 archivos → copiar el prompt 2 → contrastar plano, bitácora y norma → señalar lo pendiente.
+
+---
+
+# Demostración 2 · Contraste de fuentes y límites
+
+<div class="grid grid-cols-2 gap-6 mt-7">
+<div class="p-5 rounded-xl bg-blue-500/10">
+<h3 class="text-lg font-semibold mb-2">Ruta de contraste</h3>
+<ol class="list-decimal pl-5 text-base leading-snug space-y-1">
+<li>Localizar <strong>250 kg/cm²</strong> en el plano E1.</li>
+<li>Leer las anotaciones de bitácora en su contexto.</li>
+<li>Verificar el texto del <strong>artículo 87</strong> en el reglamento adjunto.</li>
+<li>Solicitar pruebas, especificaciones o aclaraciones si hacen falta.</li>
+</ol>
+</div>
+<div class="p-5 rounded-xl bg-orange-500/10">
+<h3 class="text-lg font-semibold mb-2">Interpretación responsable</h3>
+<p class="text-base leading-snug mb-1">Una diferencia aparente entre valores no prueba por sí misma incumplimiento.</p>
+<p class="text-base leading-snug mb-1"><strong>Resultado:</strong> discrepancia por aclarar; especificar fuente, incertidumbre y evidencia pendiente.</p>
+</div>
+</div>
+<div class="mt-6 text-center"><a href="https://ia-dro.elizabethfigueroa.com/modulos/modulo-3" target="_blank" rel="noopener noreferrer" class="inline-block px-4 py-2 rounded-lg border border-blue-400 text-blue-700 dark:text-blue-300 font-semibold">↗ Consultar Prompt 2 completo</a></div>
+
+<!--
+NOTAS PARA LA INSTRUCTORA
+Aclarar que el artículo 87 debe verificarse en la versión aplicable, así como su alcance exacto; citarlo no basta para establecer un requisito de resistencia. Pedir a los participantes qué documentos permitirían resolver la discrepancia.
+-->
 
 ---
 
@@ -1741,6 +2121,31 @@ Aspectos identificados durante la prueba:
 **Atención al folio 0005:** su lectura ha producido interpretaciones distintas.
 
 > La IA puede identificar relaciones, pero sus conclusiones requieren validación profesional.
+
+---
+
+# Actividad guiada · ¿Alerta, evidencia o conclusión?
+
+<div class="grid grid-cols-3 gap-4 mt-8">
+<div class="p-5 rounded-xl bg-gray-100 dark:bg-gray-800">
+<h3 class="text-lg font-semibold mb-2">1 · Identificar</h3>
+<p class="text-base leading-snug mb-1">Seleccionar una afirmación de la matriz y localizar su fuente.</p>
+</div>
+<div class="p-5 rounded-xl bg-blue-500/10">
+<h3 class="text-lg font-semibold mb-2">2 · Clasificar</h3>
+<p class="text-base leading-snug mb-1"><strong>Dato explícito</strong>, <strong>inferencia</strong> o <strong>dato no verificable</strong>.</p>
+</div>
+<div class="p-5 rounded-xl bg-green-500/10">
+<h3 class="text-lg font-semibold mb-2">3 · Decidir</h3>
+<p class="text-base leading-snug mb-1">¿Qué evidencia debe solicitar el DRO antes de emitir una observación?</p>
+</div>
+</div>
+<div class="mt-8 p-4 border rounded-lg text-center text-lg">**Producto colectivo:** una observación preliminar con fuente, nivel de certeza y acción pendiente.</div>
+
+<!--
+NOTAS PARA LA INSTRUCTORA
+Conducir una sola clasificación para no exceder el tiempo. Si alguien afirma incumplimiento, preguntar por la evidencia y la norma vigente. Concluir que la IA organiza el análisis, pero el profesional determina el seguimiento.
+-->
 
 ---
 
@@ -1785,6 +2190,31 @@ La correspondencia entre cada fotografía y un detalle del plano debe verificars
 
 ---
 
+# Módulo 4 · Preparación de la demostración A-1
+
+<div class="grid grid-cols-2 gap-6 mt-7">
+<div class="p-5 rounded-xl bg-blue-500/10">
+<h3 class="text-lg font-semibold mb-2">Entradas de esta demostración</h3>
+<ul class="list-disc pl-5 text-base leading-snug space-y-1">
+<li><strong>1 PDF:</strong> plano estructural de cimentación.</li>
+<li><strong>4 fotografías:</strong> proceso constructivo del caso A-1.</li>
+</ul>
+<p class="text-base leading-snug mb-1">No suponer que cada imagen corresponde a un detalle específico del plano.</p>
+</div>
+<div class="p-5 rounded-xl bg-green-500/10">
+<h3 class="text-lg font-semibold mb-2">Producto esperado</h3>
+<p class="text-base leading-snug mb-1">Matriz con fotografía, elemento visible, posible referencia al plano, grado de certeza, evidencia faltante y verificación en obra.</p>
+</div>
+</div>
+<div class="mt-6 text-center"><a href="https://ia-dro.elizabethfigueroa.com/modulos/modulo-4" target="_blank" rel="noopener noreferrer" class="inline-block px-4 py-2 rounded-lg border border-blue-400 text-blue-700 dark:text-blue-300 font-semibold">↗ Abrir prompt multimodal y kit A-1</a></div>
+
+<!--
+NOTAS PARA LA INSTRUCTORA
+Usar únicamente el PDF y las cuatro fotografías seleccionadas para la demostración principal. La lista de planos de la diapositiva anterior describe el acervo del proyecto, no los cinco archivos que se adjuntarán en esta prueba. Verificar que el kit tenga esos archivos antes del taller.
+-->
+
+---
+
 # De los planos a la evidencia visual
 
 <div class="grid grid-cols-2 gap-6 mt-8">
@@ -1809,9 +2239,9 @@ La correspondencia entre cada fotografía y un detalle del plano debe verificars
 
 # Demostración · Análisis multimodal
 
-**1. Adjuntar** los tres planos y cuatro fotografías seleccionadas.
+**1. Adjuntar** el PDF `19 PLANOS ESTRUCTURALES CIMENTACIÓN A-1.pdf` y cuatro fotografías: `foto-057.jpg`, `foto-059.jpg`, `foto-060.jpg`, `foto-061.jpg`.
 
-**2. Ejecutar** el prompt profesional multimodal disponible en VitePress.
+**2. Ejecutar** el prompt multimodal del caso A1: <a href="https://ia-dro.elizabethfigueroa.com/modulos/modulo-4" target="_blank" rel="noopener noreferrer" class="inline-block px-5 py-3 rounded-lg border border-blue-400 text-blue-600 dark:text-blue-300 font-semibold">↗ Abrir prompt completo · Módulo 4</a>
 
 **3. Examinar** la descripción de cada fotografía.
 
@@ -1820,6 +2250,37 @@ La correspondencia entre cada fotografía y un detalle del plano debe verificars
 **5. Identificar** verificaciones y evidencias adicionales.
 
 **Producto:** matriz de contraste documental-visual.
+
+---
+
+# Análisis multimodal · Cómo leer la respuesta
+
+<div class="grid grid-cols-2 gap-6 mt-7">
+<div class="p-5 rounded-xl bg-blue-500/10">
+<h3 class="text-lg font-semibold mb-2">Revisar fotografía por fotografía</h3>
+<ol class="list-decimal pl-5 text-base leading-snug space-y-1">
+<li>¿Qué elemento es <strong>visible</strong>?</li>
+<li>¿Qué detalle del plano <strong>podría</strong> corresponderle?</li>
+<li>¿Qué dato no se aprecia con suficiente resolución?</li>
+<li>¿Qué medición o documento adicional se necesita?</li>
+</ol>
+</div>
+<div class="p-5 rounded-xl bg-orange-500/10">
+<h3 class="text-lg font-semibold mb-2">Señales de alerta</h3>
+<ul class="list-disc pl-5 text-base leading-snug space-y-1">
+<li>Afirmar diámetros sin escala legible.</li>
+<li>Inferir recubrimientos ocultos.</li>
+<li>Dar por correcta una separación no medida.</li>
+<li>Confundir una hipótesis visual con cumplimiento.</li>
+</ul>
+</div>
+</div>
+<div class="mt-6 p-4 border rounded-lg text-center text-lg">**Discusión:** ¿qué afirmaciones de la IA aceptarían como descripción y cuáles exigirían comprobar en sitio?</div>
+
+<!--
+NOTAS PARA LA INSTRUCTORA
+No se dispone aquí de una salida real validada de la demostración A-1; esta diapositiva presenta criterios de lectura y no hallazgos empíricos del caso. En la sesión mostrar el resultado real generado y revisar si la IA reconoce los límites de las fotografías.
+-->
 
 ---
 
@@ -1846,6 +2307,31 @@ La correspondencia entre cada fotografía y un detalle del plano debe verificars
 
 ---
 
+# Del contraste a una visita de supervisión
+
+<div class="grid grid-cols-3 gap-4 mt-8">
+<div class="p-5 rounded-xl bg-gray-100 dark:bg-gray-800">
+<h3 class="text-lg font-semibold mb-2">Antes del colado</h3>
+<p class="text-base leading-snug mb-1">Identificar detalles que deben comprobarse y documentarse mientras estén visibles.</p>
+</div>
+<div class="p-5 rounded-xl bg-blue-500/10">
+<h3 class="text-lg font-semibold mb-2">Durante la revisión</h3>
+<p class="text-base leading-snug mb-1">Solicitar fotografías con referencia, mediciones, ubicación y registros de control.</p>
+</div>
+<div class="p-5 rounded-xl bg-green-500/10">
+<h3 class="text-lg font-semibold mb-2">Después del análisis</h3>
+<p class="text-base leading-snug mb-1">Preparar borrador de observación o solicitud de evidencia, sujeto a validación del DRO.</p>
+</div>
+</div>
+<div class="mt-7 p-4 border rounded-lg text-center text-lg">**Producto útil:** lista de verificaciones priorizadas, no un dictamen de conformidad estructural.</div>
+
+<!--
+NOTAS PARA LA INSTRUCTORA
+Pedir al grupo un ejemplo de dato que debe documentarse antes de quedar oculto por el colado. Insistir en que la IA no sustituye mediciones ni inspección presencial.
+-->
+
+---
+
 # Evaluación profesional
 
 1. ¿Qué información del plano puede identificarse realmente en las fotografías?
@@ -1854,6 +2340,25 @@ La correspondencia entre cada fotografía y un detalle del plano debe verificars
 4. ¿Qué evidencia adicional solicitaría el DRO?
 
 **Una observación visual no equivale a una comprobación técnica.**
+
+---
+
+# Síntesis · Cuatro aplicaciones, una regla profesional
+
+| Módulo | Lo que aporta la IA | Lo que verifica el profesional |
+|---|---|---|
+| 1 · Visualización | Alternativas de acabados | Fidelidad a restricciones |
+| 2 · Prompts | Listas de supervisión | Fuentes y ambigüedades |
+| 3 · Documentos y normas | Matriz de alertas | Vigencia y evidencia normativa |
+| 4 · Fotos y planos | Contraste visual preliminar | Mediciones y comprobación en obra |
+
+<div class="mt-6 text-center"><a href="https://ia-dro.elizabethfigueroa.com/modulos/modulo-1" target="_blank" rel="noopener noreferrer" class="inline-block px-4 py-2 rounded-lg border border-blue-400 text-blue-700 dark:text-blue-300 font-semibold">↗ M1</a> &nbsp; <a href="https://ia-dro.elizabethfigueroa.com/modulos/modulo-2" target="_blank" rel="noopener noreferrer" class="inline-block px-4 py-2 rounded-lg border border-blue-400 text-blue-700 dark:text-blue-300 font-semibold">↗ M2</a> &nbsp; <a href="https://ia-dro.elizabethfigueroa.com/modulos/modulo-3" target="_blank" rel="noopener noreferrer" class="inline-block px-4 py-2 rounded-lg border border-blue-400 text-blue-700 dark:text-blue-300 font-semibold">↗ M3</a> &nbsp; <a href="https://ia-dro.elizabethfigueroa.com/modulos/modulo-4" target="_blank" rel="noopener noreferrer" class="inline-block px-4 py-2 rounded-lg border border-blue-400 text-blue-700 dark:text-blue-300 font-semibold">↗ M4</a></div>
+<div class="mt-5 text-center text-lg font-semibold">IA propone y organiza → Profesional verifica → Profesional decide.</div>
+
+<!--
+NOTAS PARA LA INSTRUCTORA
+Cerrar retomando el valor agregado profesional de cada módulo. Los enlaces son a las páginas de los módulos; verificar en el portal los anclajes directos a cada prompt antes de la sesión.
+-->
 
 ---
 
