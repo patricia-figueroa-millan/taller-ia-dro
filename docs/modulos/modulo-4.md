@@ -45,67 +45,122 @@ Duración sugerida: 25 minutos.
 | 17–22 min | Revisar observaciones, incertidumbres y verificaciones propuestas |
 | 22–25 min | Recuperar aprendizajes y cerrar el taller |
 
+
 ## Prompt profesional multimodal
 
-Adjuntar en una misma conversación:
+Para esta demostración se utilizarán cinco archivos del Proyecto A1.
 
-1. Plano estructural de cimentación A-1.
-2. Plano estructural de losas de planta baja y planta alta A-1, como referencia complementaria.
-3. Plano arquitectónico A-1, como referencia espacial.
-4. Las cuatro fotografías seleccionadas de esta página.
+### Documentos de entrada
 
-Copiar y ejecutar:
+Adjuntar en una misma conversación de ChatGPT:
+
+1. Plano estructural de cimentación A1, en formato PDF.
+2. `foto-057.jpg`
+3. `foto-059.jpg`
+4. `foto-060.jpg`
+5. `foto-061.jpg`
+
+### Prompt para ejecutar
+
+Copiar el siguiente prompt y ejecutarlo con los cinco archivos adjuntos.
 
 ```text
-Actúa como asistente de apoyo documental y visual para un Director Responsable de Obra (DRO) en México.
+1. ROL
 
-CONTEXTO
-Se analiza documentación de una vivienda identificada didácticamente como Proyecto A-1. Se adjuntan planos arquitectónicos y estructurales, así como fotografías del proceso constructivo. El ejercicio se concentra en el sistema de cimentación y la zona identificada en el plano como losa de planta baja.
+Actúa como asistente técnico especializado en interpretación de planos estructurales, análisis de evidencias fotográficas de procesos constructivos y apoyo a la supervisión de obra.
 
-OBJETIVO
-Apoyar una revisión preliminar mediante el contraste entre la información expresamente documentada en los planos y las características que pueden observarse en las fotografías.
+Tu función es apoyar el análisis preliminar de un Director Responsable de Obra (DRO), sin sustituir su criterio profesional, la inspección física ni las verificaciones técnicas correspondientes.
 
-TAREAS
-1. Identifica los documentos adjuntos y describe qué información relevante aporta cada uno.
-2. En el plano estructural de cimentación, localiza la planta de losa de planta baja, los detalles y secciones que puedan relacionarse con las fotografías.
-3. Examina cada fotografía por separado. Describe únicamente elementos y condiciones que sean visualmente observables.
-4. Identifica posibles correspondencias entre lo representado en los planos y lo visible en las fotografías. Para cada correspondencia, explica qué rasgos la sustentan y qué información falta para confirmarla.
-5. Distingue entre:
-   a) dato expresamente indicado en el plano;
-   b) observación visual de la fotografía;
-   c) interpretación o correspondencia probable;
-   d) aspecto que no puede determinarse con los archivos disponibles.
-6. Identifica aspectos que podrían requerir verificación en obra, por ejemplo: ubicación y continuidad del acero, recubrimientos, separaciones, diámetros, anclajes, traslapes, posición de elementos perimetrales, conducciones embebidas, cimbra y condiciones previas al colado. Inclúyelos solo cuando sean pertinentes a lo que muestran los archivos.
-7. Para cada aspecto propuesto, indica qué evidencia adicional sería necesaria: medición, consulta del detalle correspondiente, fotografía de acercamiento, registro de obra, prueba o inspección especializada.
-8. Señala contradicciones, falta de legibilidad o ausencia de información. No completes datos mediante suposiciones.
 
-RESTRICCIONES
-- No inventes dimensiones, diámetros, separaciones, resistencias, materiales ni especificaciones.
-- No afirmes que una fotografía corresponde a un eje, elemento o detalle específico si no puede establecerse con claridad.
-- No determines cumplimiento o incumplimiento a partir de fotografías.
-- No afirmes que el acero tiene un diámetro o separación determinados por apreciación visual.
-- No infieras características ocultas después del colado.
-- No confundas una observación visual con una medición o comprobación técnica.
-- No emitas dictamen estructural ni sustituyas el juicio del DRO.
-- Si el texto de un plano no es legible, indícalo y solicita revisar el original.
+2. CONTEXTO
 
-FORMATO DE SALIDA
-A. Documentos examinados.
-B. Descripción objetiva de cada fotografía.
-C. Matriz de contraste con estas columnas:
-   - ID
-   - Elemento o aspecto
-   - Información documentada en el plano
-   - Observación visual y fotografía de origen
-   - Correspondencia: confirmada, probable o no determinable
-   - Verificación adicional requerida
-   - Limitaciones
-D. Cinco verificaciones prioritarias que el DRO podría considerar en una visita.
-E. Información que no puede determinarse con los archivos proporcionados.
+Se proporciona documentación de un proyecto real identificado como Proyecto A1, consistente en:
 
-CRITERIO FINAL
-La finalidad es orientar la revisión profesional y organizar evidencias. La IA propone observaciones y verificaciones; el DRO contrasta los documentos originales, realiza las comprobaciones necesarias y toma las decisiones profesionales.
+- Un plano estructural de cimentación en formato PDF.
+- Cuatro fotografías del proceso constructivo: foto-057.jpg, foto-059.jpg, foto-060.jpg y foto-061.jpg.
+
+El propósito es explorar cómo la inteligencia artificial multimodal puede relacionar información de planos con evidencias fotográficas para apoyar las actividades de supervisión de obra.
+
+
+3. OBJETIVO
+
+Realizar un análisis técnico preliminar que identifique elementos constructivos visibles, los contraste con la información legible del plano y proponga verificaciones pertinentes para el DRO.
+
+No se solicita emitir un dictamen estructural ni certificar el cumplimiento del proyecto.
+
+
+4. ACTIVIDADES
+
+FASE 1. INTERPRETACIÓN DE LAS EVIDENCIAS
+
+1. Identifica los elementos constructivos que pueden reconocerse en cada fotografía.
+2. Describe las características observables, distinguiendo hechos visibles de interpretaciones.
+3. Identifica las especificaciones relevantes que puedan leerse con suficiente claridad en el plano estructural.
+4. Señala expresamente cualquier texto, cota, símbolo o detalle del plano que no pueda interpretarse con certeza.
+
+
+FASE 2. CONTRASTE ENTRE PLANO Y FOTOGRAFÍAS
+
+1. Relaciona los elementos visibles en las fotografías con los detalles o especificaciones identificables en el plano.
+2. Identifica posibles coincidencias, diferencias o aspectos que requieren verificación.
+3. No afirmes que existe una discrepancia cuando la evidencia sea insuficiente para demostrarla.
+4. No infieras dimensiones exactas, diámetros de acero, separaciones de refuerzo, resistencias de materiales ni cumplimiento estructural exclusivamente a partir de fotografías.
+5. Cuando no sea posible establecer una correspondencia entre un elemento fotografiado y un detalle específico del plano, indícalo.
+
+
+FASE 3. APOYO A LA SUPERVISIÓN DEL DRO
+
+Elabora una matriz con las siguientes columnas:
+
+- Fotografía o evidencia.
+- Elemento identificado.
+- Referencia del plano.
+- Observación preliminar.
+- Nivel de certeza.
+- Verificación recomendada.
+
+Para cada observación:
+
+- Indica la fotografía que la sustenta.
+- Identifica la referencia del plano, cuando sea legible.
+- Clasifica el nivel de certeza como alto, medio o bajo, justificándolo brevemente.
+- Propón una acción concreta de verificación documental o en obra.
+
+
+FASE 4. ANÁLISIS CRÍTICO
+
+Responde:
+
+1. ¿Qué aspectos pudieron analizarse razonablemente con la documentación proporcionada?
+2. ¿Qué aspectos no pueden verificarse mediante estas fotografías y el plano?
+3. ¿Qué información adicional sería necesaria para mejorar el análisis?
+4. ¿Qué observaciones podrían ser útiles para preparar una visita de supervisión del DRO?
+5. ¿Qué riesgos existirían si las interpretaciones de la IA se aceptaran sin validación profesional?
+
+
+5. RESTRICCIONES
+
+- Trabaja únicamente con la documentación proporcionada.
+- No inventes especificaciones, dimensiones, detalles constructivos ni referencias del plano.
+- No asumas que las fotografías muestran necesariamente todos los elementos definidos en el plano.
+- Distingue entre evidencia observable, inferencia y aspecto no verificable.
+- No emitas conclusiones definitivas sobre seguridad estructural, calidad de ejecución o cumplimiento normativo.
+- Si la documentación no permite responder alguna cuestión, indícalo explícitamente.
+
+
+6. FORMATO DE RESPUESTA
+
+Presenta los resultados en este orden:
+
+1. Identificación de evidencias por fotografía.
+2. Especificaciones legibles del plano.
+3. Matriz de contraste entre plano y fotografías.
+4. Limitaciones e incertidumbres.
+5. Lista priorizada de verificaciones recomendadas para el DRO.
+6. Conclusión breve sobre el valor y las limitaciones de la IA multimodal para la supervisión de obra.
 ```
+
+
 
 ## Preguntas para conducir la revisión con los participantes
 
