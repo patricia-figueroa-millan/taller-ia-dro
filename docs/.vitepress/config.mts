@@ -41,7 +41,11 @@ export default defineConfig({
           {
             text: 'Módulo 1. Fundamentos de IA',
             link: '/modulos/modulo-1'
-          }
+          },
+          {
+            text: 'Módulo 2. Ingeniería de prompts',
+            link: '/modulos/modulo-2'
+          },
         ]
       },
       {

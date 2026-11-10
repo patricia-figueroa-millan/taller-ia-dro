@@ -978,3 +978,553 @@ obtener resultados más controlados?
 
 Esto nos conduce a la ingeniería de prompts.
 -->
+
+---
+layout: section
+---
+
+# MÓDULO 2
+
+## Ingeniería de prompts
+
+<div class="mt-8 text-xl opacity-80">
+  De una solicitud general a una instrucción profesional
+</div>
+
+<div class="mt-12 text-lg">
+  Duración: 20 minutos
+</div>
+
+<!--
+DIAPOSITIVA 19 — DURACIÓN: 30 segundos
+
+Presentar el módulo.
+
+Explicar que una misma herramienta de IA puede producir
+resultados diferentes dependiendo de las instrucciones
+y de la información proporcionada.
+
+En este módulo construiremos instrucciones profesionales
+para dos aplicaciones:
+
+1. Renovación arquitectónica.
+2. Preparación de una visita de supervisión.
+
+El objetivo no es redactar prompts extensos,
+sino producir instrucciones claras, verificables
+y útiles para una actividad profesional.
+-->
+
+---
+layout: center
+---
+
+# ¿Qué le pedirías a la IA?
+
+<div class="mt-10 p-6 rounded-xl bg-gray-100 dark:bg-gray-800 text-center">
+  <div class="text-2xl font-semibold">
+    “Revisa estos documentos y dime si todo está bien.”
+  </div>
+</div>
+
+<div class="mt-10 text-center text-xl">
+  ¿Qué información falta para obtener un resultado útil?
+</div>
+
+<div class="mt-8 text-center text-lg text-blue-500">
+  Pregunta general → Instrucción profesional → Resultado evaluable
+</div>
+
+<!--
+DIAPOSITIVA 20 — DURACIÓN: 1 minuto
+
+Presentar la solicitud general.
+
+Preguntar a los participantes:
+
+¿Qué significa revisar?
+¿Qué documentos deben utilizarse?
+¿Qué tipo de resultado esperamos?
+¿Cómo comprobaremos que la respuesta es correcta?
+
+Explicar que el problema no es únicamente
+la redacción de la pregunta.
+
+La instrucción debe definir una tarea profesional
+y establecer criterios para evaluar su resultado.
+-->
+
+---
+
+# Los ocho componentes de un prompt profesional
+
+<div class="grid grid-cols-4 gap-4 mt-8 text-center">
+
+  <div class="p-4 rounded-xl bg-blue-100 dark:bg-blue-900">
+    <div class="text-xl font-bold">1. Rol</div>
+    <div class="text-sm mt-2">¿Desde qué perspectiva?</div>
+  </div>
+
+  <div class="p-4 rounded-xl bg-blue-100 dark:bg-blue-900">
+    <div class="text-xl font-bold">2. Contexto</div>
+    <div class="text-sm mt-2">¿En qué situación?</div>
+  </div>
+
+  <div class="p-4 rounded-xl bg-blue-100 dark:bg-blue-900">
+    <div class="text-xl font-bold">3. Objetivo</div>
+    <div class="text-sm mt-2">¿Qué necesitamos?</div>
+  </div>
+
+  <div class="p-4 rounded-xl bg-blue-100 dark:bg-blue-900">
+    <div class="text-xl font-bold">4. Tareas</div>
+    <div class="text-sm mt-2">¿Qué debe realizar?</div>
+  </div>
+
+  <div class="p-4 rounded-xl bg-green-100 dark:bg-green-900">
+    <div class="text-xl font-bold">5. Entradas</div>
+    <div class="text-sm mt-2">¿Con qué información?</div>
+  </div>
+
+  <div class="p-4 rounded-xl bg-green-100 dark:bg-green-900">
+    <div class="text-xl font-bold">6. Restricciones</div>
+    <div class="text-sm mt-2">¿Qué debe respetar?</div>
+  </div>
+
+  <div class="p-4 rounded-xl bg-green-100 dark:bg-green-900">
+    <div class="text-xl font-bold">7. Formato</div>
+    <div class="text-sm mt-2">¿Cómo debe responder?</div>
+  </div>
+
+  <div class="p-4 rounded-xl bg-green-100 dark:bg-green-900">
+    <div class="text-xl font-bold">8. Calidad</div>
+    <div class="text-sm mt-2">¿Cómo evaluaremos?</div>
+  </div>
+
+</div>
+
+<div class="mt-8 text-center text-lg">
+  <strong>Definir → Construir → Ejecutar → Evaluar → Ajustar</strong>
+</div>
+
+<!--
+DIAPOSITIVA 21 — DURACIÓN: 2 minutos 30 segundos
+
+Explicar brevemente los ocho componentes.
+
+ROL:
+Define la perspectiva de trabajo.
+
+CONTEXTO:
+Describe la situación profesional.
+
+OBJETIVO:
+Establece el producto esperado.
+
+TAREAS:
+Precisa las operaciones necesarias.
+
+ENTRADAS:
+Identifica documentos, fotografías y datos.
+
+RESTRICCIONES:
+Establece qué no debe modificar o afirmar.
+
+FORMATO:
+Define la presentación del resultado.
+
+CALIDAD:
+Establece criterios de evaluación.
+
+Aclarar que estos ocho componentes constituyen
+una estructura didáctica del taller,
+no una clasificación universal.
+
+Destacar que un prompt largo no garantiza
+una respuesta correcta.
+-->
+
+---
+
+# Experiencia A · Arquitectura
+
+## Renovar sin rediseñar
+
+<div class="grid grid-cols-2 gap-8 mt-8">
+
+  <div class="p-6 rounded-xl bg-gray-100 dark:bg-gray-800">
+    <div class="text-xl font-bold mb-4">Conservar</div>
+
+    - Volumetría.
+    - Cubiertas.
+    - Muros.
+    - Puertas y ventanas.
+    - Arcos.
+    - Configuración espacial.
+  </div>
+
+  <div class="p-6 rounded-xl bg-blue-100 dark:bg-blue-900">
+    <div class="text-xl font-bold mb-4">Transformar</div>
+
+    - Materiales y acabados.
+    - Pavimentos.
+    - Paisajismo.
+    - Iluminación.
+    - Mobiliario exterior.
+    - Ambientación.
+  </div>
+
+</div>
+
+<div class="mt-8 text-center text-xl font-semibold">
+  Mayor libertad estética, sin modificar la arquitectura esencial.
+</div>
+
+<!--
+DIAPOSITIVA 22 — DURACIÓN: 1 minuto
+
+Retomar la fotografía original del proyecto B.
+
+Explicar que en el módulo 1 solicitamos
+cambios de acabados con restricciones importantes.
+
+Ahora ampliaremos deliberadamente el alcance:
+
+Se permitirá modificar acabados, pavimentos,
+paisajismo, iluminación y mobiliario.
+
+Pero se conservarán los elementos arquitectónicos
+permanentes.
+
+Aclarar que una mayor transformación visual
+no necesariamente significa que el prompt sea mejor.
+
+El alcance de la intervención también cambió.
+-->
+
+---
+
+# De la fotografía a la propuesta
+
+<div class="grid grid-cols-3 gap-4 mt-6">
+  <div class="text-center">
+    <div class="text-lg font-semibold mb-3">Fotografía original</div>
+    <img
+      :src="`/imagenes/modulo-1/fachada-referencia.jpg`"
+      alt="Fotografía original del proyecto B"
+      class="w-full h-52 object-contain rounded-xl border border-gray-300"
+    />
+  </div>
+  <div class="text-center">
+    <div class="text-lg font-semibold mb-3">Gemini C · Módulo 1</div>
+    <img
+      :src="`/imagenes/modulo-1/fachada-gemini-c.jpg`"
+      alt="Resultado de Gemini C del módulo 1"
+      class="w-full h-52 object-contain rounded-xl border border-gray-300"
+    />
+  </div>
+  <div class="text-center">
+    <div class="text-lg font-semibold mb-3">Gemini D · Módulo 2</div>
+    <img
+      :src="`/imagenes/modulo-2/fachada-gemini-d.jpg`"
+      alt="Resultado de Gemini D con el prompt profesional del módulo 2"
+      class="w-full h-52 object-contain rounded-xl border border-gray-300"
+    />
+  </div>
+</div>
+
+<div class="grid grid-cols-2 gap-6 mt-8">
+  <div class="p-4 rounded-xl bg-gray-100 dark:bg-gray-800 text-center">
+    <strong>Impacto estético</strong>
+    <div class="text-sm mt-2">¿Qué tanto cambió la propuesta visual?</div>
+  </div>
+  <div class="p-4 rounded-xl bg-gray-100 dark:bg-gray-800 text-center">
+    <strong>Fidelidad arquitectónica</strong>
+    <div class="text-sm mt-2">¿Qué elementos originales se conservaron?</div>
+  </div>
+</div>
+
+
+<!--
+DIAPOSITIVA 23 — DURACIÓN: 3 minutos
+
+OBJETIVO DIDÁCTICO
+Comparar dos resultados generados con Gemini a partir de una misma fotografía, identificando el impacto estético, la fidelidad arquitectónica aparente y las limitaciones de la IA generativa.
+
+DESARROLLO DE LA EXPLICACIÓN
+
+1. Presentar la fotografía original del proyecto B.
+
+2. Mostrar Gemini C, generado durante el módulo 1.
+   - Conserva de manera más cercana la configuración arquitectónica visible.
+   - Introduce cambios estéticos limitados.
+   - La transformación visual es poco significativa.
+
+3. Mostrar Gemini D, generado mediante el prompt profesional del módulo 2.
+   - Incorpora revestimientos, iluminación, paisajismo y mobiliario.
+   - Produce una renovación estética más significativa.
+   - Presenta variaciones en detalles de cubiertas, arcos y cancelería que requieren revisión profesional.
+
+4. Solicitar a los participantes que identifiquen:
+   - ¿Cuál resultado presenta mayor transformación estética?
+   - ¿Cuál conserva mejor las características arquitectónicas originales?
+   - ¿Qué modificaciones deberían revisarse antes de presentar la propuesta a un cliente?
+
+CONCLUSIÓN
+Gemini C presenta mayor fidelidad arquitectónica aparente, pero una intervención estética limitada.
+Gemini D logra mayor impacto visual, aunque introduce variaciones arquitectónicas.
+
+La calidad visual no garantiza fidelidad arquitectónica ni viabilidad constructiva.
+
+LIMITACIÓN METODOLÓGICA
+Aunque se utilizó la misma herramienta y fotografía, los prompts difieren tanto en estructura como en alcance.
+Por lo tanto, no se puede atribuir la diferencia de resultados exclusivamente a los ocho componentes del prompt.
+
+TRANSICIÓN
+La siguiente experiencia aplica la ingeniería de prompts a una tarea profesional del DRO: transformar información documental en una lista de verificación para supervisión de obra.
+-->
+
+
+---
+
+# Experiencia B · DRO
+
+## Del documento al instrumento de supervisión
+
+<div class="grid grid-cols-3 gap-5 mt-10 text-center">
+
+  <div class="p-6 rounded-xl bg-gray-100 dark:bg-gray-800">
+    <div class="text-xl font-bold">
+      Documentación
+    </div>
+    <div class="text-sm mt-3">
+      Planos y memoria de cálculo
+    </div>
+  </div>
+
+  <div class="p-6 rounded-xl bg-blue-100 dark:bg-blue-900">
+    <div class="text-xl font-bold">
+      Análisis con IA
+    </div>
+    <div class="text-sm mt-3">
+      Identificar requisitos documentados
+    </div>
+  </div>
+
+  <div class="p-6 rounded-xl bg-green-100 dark:bg-green-900">
+    <div class="text-xl font-bold">
+      Lista de verificación
+    </div>
+    <div class="text-sm mt-3">
+      Preparar la visita de supervisión
+    </div>
+  </div>
+
+</div>
+
+<div class="mt-10 p-5 rounded-xl bg-gray-100 dark:bg-gray-800 text-center">
+  <strong>
+    Requisito → Fuente → Verificación → Evidencia → Estado
+  </strong>
+</div>
+
+<div class="mt-6 text-center text-lg">
+  De información dispersa a un instrumento operativo y trazable.
+</div>
+
+<!--
+DIAPOSITIVA 24 — DURACIÓN: 3 minutos
+
+Presentar los documentos seleccionados del proyecto B.
+
+Explicar que el objetivo no es preguntar
+si la obra cumple o incumple.
+
+La tarea consiste en identificar requisitos
+expresamente documentados y transformarlos
+en puntos de verificación para una visita.
+
+Destacar el valor agregado:
+
+1. Organización.
+2. Trazabilidad documental.
+3. Preparación de evidencias.
+4. Identificación de limitaciones.
+
+No declarar cumplimiento normativo.
+
+Los documentos deben estar anonimizados
+y autorizados para su uso.
+-->
+
+---
+
+# Tres niveles de prompts
+
+<div class="grid grid-cols-3 gap-5 mt-8">
+  <div class="p-5 rounded-xl bg-gray-100 dark:bg-gray-800">
+    <div class="text-xl font-bold mb-4">Nivel 1</div>
+    <div class="text-lg font-semibold">Solicitud básica</div>
+    <p class="text-sm mt-4">“Revisa los documentos y genera una lista de aspectos a verificar.”</p>
+  </div>
+  <div class="p-5 rounded-xl bg-blue-100 dark:bg-blue-900">
+    <div class="text-xl font-bold mb-4">Nivel 2</div>
+    <div class="text-lg font-semibold">Solicitud estructurada</div>
+    <p class="text-sm mt-4">Define tarea, fuentes, restricciones y formato.</p>
+  </div>
+  <div class="p-5 rounded-xl bg-green-100 dark:bg-green-900">
+    <div class="text-xl font-bold mb-4">Nivel 3</div>
+    <div class="text-lg font-semibold">Prompt profesional</div>
+    <p class="text-sm mt-4">Integra ocho componentes y criterios de calidad.</p>
+  </div>
+</div>
+
+<div class="mt-8 text-center text-lg font-semibold">
+  ¿Cuál produce información más útil, específica y verificable?
+</div>
+
+<div class="mt-4 text-center text-sm opacity-70">
+  Comparación de resultados reales pendiente de ejecución y validación.
+</div>
+
+<!--
+DIAPOSITIVA 25 — DURACIÓN: 1 minuto
+
+Explicar los tres niveles de prompts.
+
+Los tres deben utilizar exactamente
+los mismos documentos.
+
+Comparar las respuestas según:
+
+- Especificidad.
+- Referencias a fuentes.
+- Utilidad operativa.
+- Identificación de limitaciones.
+- Trazabilidad.
+
+No afirmar anticipadamente que un nivel
+produce necesariamente mejores resultados.
+
+Los resultados reales están pendientes.
+-->
+
+---
+
+# Workshop · Construyamos un prompt profesional
+
+<div class="text-center text-lg mt-2">
+  Actividad colectiva · 7 minutos
+</div>
+<div class="grid grid-cols-3 gap-5 mt-8">
+  <div class="p-5 rounded-xl bg-blue-100 dark:bg-blue-900">
+    <div class="text-xl font-bold mb-4">1. CONSTRUIR</div>
+    <div class="text-sm leading-7">
+      Identificar el problema.<br>
+      Precisar el objetivo.<br>
+      Definir entradas y tareas.<br>
+      Establecer restricciones.<br>
+      Elegir formato y calidad.
+    </div>
+  </div>
+  <div class="p-5 rounded-xl bg-green-100 dark:bg-green-900">
+    <div class="text-xl font-bold mb-4">2. EJECUTAR</div>
+    <div class="text-sm leading-7">
+      Copiar el prompt.<br>
+      Adjuntar documentos.<br>
+      Enviar a la IA.<br>
+      Observar el resultado.
+    </div>
+  </div>
+  <div class="p-5 rounded-xl bg-gray-100 dark:bg-gray-800">
+    <div class="text-xl font-bold mb-4">3. EVALUAR</div>
+    <div class="text-sm leading-7">
+      Revisar fuentes.<br>
+      Detectar omisiones.<br>
+      Identificar límites.<br>
+      Proponer ajustes.
+    </div>
+  </div>
+</div>
+
+<div class="mt-8 text-center text-xl font-semibold">
+  La plantilla interactiva está disponible en el módulo 2 del portal.
+</div>
+
+<!--
+DIAPOSITIVA 26 — DURACIÓN: 7 minutos
+
+ACTIVIDAD PARTICIPATIVA.
+
+Minuto 1:
+Presentar la solicitud inicial y detectar ambigüedades.
+
+Minuto 2:
+Precisar contexto y objetivo.
+
+Minuto 3:
+Precisar entradas y tareas.
+
+Minuto 4:
+Establecer restricciones.
+
+Minuto 5:
+Definir formato y criterios de calidad.
+
+Minuto 6:
+Copiar y ejecutar el prompt con documentos preparados.
+
+Minuto 7:
+Evaluar uno o dos puntos del resultado.
+
+Utilizar la plantilla interactiva de VitePress.
+
+Trabajar desde la computadora del instructor,
+con pantalla proyectada.
+
+Tener preparada una respuesta real de respaldo
+por si la herramienta no responde oportunamente.
+-->
+
+---
+layout: center
+---
+
+# ¿Qué aprendimos?
+
+<div class="text-xl mt-8 text-center">
+  Una instrucción profesional permite orientar el trabajo de la IA.
+</div>
+
+<div class="mt-8 text-center text-xl font-semibold">
+  Definir → Construir → Ejecutar → Evaluar → Ajustar
+</div>
+
+<div class="mt-10 p-5 rounded-xl bg-blue-100 dark:bg-blue-900 text-center">
+  <strong>
+    IA propone → Profesional verifica → Profesional decide
+  </strong>
+</div>
+
+<div class="mt-8 text-center text-lg">
+  Siguiente módulo: consulta normativa y verificación documental.
+</div>
+
+<!--
+DIAPOSITIVA 27 — DURACIÓN: 1 minuto
+
+Cerrar el módulo.
+
+Recuperar los aprendizajes:
+
+1. Un prompt debe corresponder a una tarea profesional.
+2. Las restricciones deben ser coherentes con el objetivo.
+3. La IA puede apoyar la organización de información.
+4. Los resultados deben evaluarse.
+5. La responsabilidad técnica permanece en el profesional.
+
+TRANSICIÓN:
+
+En el siguiente módulo utilizaremos la IA
+como apoyo para consultar y analizar normativa,
+sin sustituir la verificación en fuentes oficiales.
+-->
