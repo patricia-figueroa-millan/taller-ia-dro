@@ -383,15 +383,24 @@ La IA puede ayudar a transformar información documental dispersa en una lista p
 
 La lista debe permitir identificar qué se pretende verificar, de dónde procede el requisito y qué evidencia sería necesaria.
 
+
 ### Documentos de entrada
 
-Se utilizará documentación seleccionada del proyecto B:
+Se utiliza documentación técnica seleccionada del proyecto B, correspondiente a una obra real ubicada en el estado de Colima.
 
-- Plano arquitectónico, cuando resulte pertinente.
-- Plano estructural.
-- Fragmentos de memoria de cálculo.
+Para las pruebas de los prompts B1, B2 y B3 se emplearon fotografías de los siguientes documentos:
 
-Los tres prompts deberán ejecutarse utilizando exactamente los mismos documentos.
+- **Plano estructural:** notas y especificaciones técnicas del proyecto.
+- **Memoria de cálculo:** fragmentos de información técnica disponible.
+- **Bitácora de obra:** portada y cinco folios con registros de obra, incluyendo anotaciones en el apartado de observaciones del perito y/o corresponsables.
+
+El proyecto también cuenta con un plano arquitectónico, aunque este no formó parte del conjunto de fotografías utilizado en la comparación documentada.
+
+Los tres prompts se evaluaron utilizando el mismo conjunto de 12 fotografías, con el propósito de comparar sus respuestas bajo condiciones documentales equivalentes.
+
+Los resultados se presentan en la sección 10.
+
+**Alcance:** La información disponible corresponde a fotografías y fragmentos documentales. Por tanto, las verificaciones generadas son preliminares y no sustituyen la consulta de los documentos originales ni la inspección profesional de la obra.
 
 ::: warning Protección de información
 Antes de utilizar documentación real, deberán revisarse y anonimizarse los datos personales, firmas, domicilios, identificadores y cualquier información sensible.
@@ -519,172 +528,242 @@ Separa los datos documentados de las recomendaciones de verificación.
 Cuando la evidencia sea insuficiente, expresa la incertidumbre en lugar de completar información mediante suposiciones.
 ```
 
+::: tip Consideración para la demostración
+Los prompts B1, B2 y B3 se conservan en su versión original para permitir una comparación de sus resultados.
+
+El prompt B3 incorpora instrucciones para limitar las suposiciones y exigir trazabilidad documental. Sin embargo, estas instrucciones no garantizan que la IA interprete correctamente todos los datos, especialmente cuando proceden de fotografías o anotaciones manuscritas.
+
+La experiencia permitirá identificar una inconsistencia real en la interpretación de la bitácora de obra y utilizarla como punto de partida para mejorar el prompt mediante una actividad participativa.
+
+**El propósito no es demostrar que un prompt más extenso siempre produce una respuesta correcta, sino que la calidad de las instrucciones y la validación profesional son necesarias para obtener resultados útiles.**
+:::
+
 ---
 
 ## 10. Comparación de los resultados {#lista-verificacion}
 
-Los tres prompts deberán ejecutarse con las mismas entradas documentales.
 
-Posteriormente se compararán mediante los siguientes criterios:
+Los tres prompts (B1, B2 y B3) se ejecutaron utilizando el mismo conjunto de documentos del proyecto B.
 
-| Criterio | Nivel 1 | Nivel 2 | Nivel 3 |
+Las respuestas obtenidas se analizaron mediante los siguientes criterios, con el propósito de identificar diferencias en organización, especificidad, trazabilidad documental y utilidad para preparar una visita de supervisión.
+
+Los resultados corresponden a las ejecuciones documentadas de esta experiencia y no constituyen una evaluación estadística ni permiten generalizar el desempeño de los prompts.
+
+
+| Criterio | B1. Básico | B2. Estructurado | B3. Profesional |
 |---|---|---|---|
-| Especificidad para el proyecto | Por evaluar | Por evaluar | Por evaluar |
-| Referencias a fuentes | Por evaluar | Por evaluar | Por evaluar |
-| Utilidad operativa | Por evaluar | Por evaluar | Por evaluar |
-| Identificación de limitaciones | Por evaluar | Por evaluar | Por evaluar |
-| Trazabilidad | Por evaluar | Por evaluar | Por evaluar |
+| Puntos de verificación | 53 | 33 | 12 priorizados |
+| Organización | 7 áreas | 5 áreas | Tabla de verificaciones priorizadas |
+| Especificidad | Variable | Mayor estructuración | Enfoque en verificaciones concretas |
+| Referencias documentales | Limitadas | Identificación de documentos | Referencias más específicas |
+| Utilidad operativa | Lista extensa que requiere depuración | Instrumento más organizado | Lista más breve y orientada a prioridades |
+| Identificación de limitaciones | Insuficiente | Parcial | Más explícita, pero con inconsistencias |
+| Principal área de oportunidad | Exceso de elementos y necesidad de validar su pertinencia | Mejorar la precisión y trazabilidad | Corregir contradicciones y revisar posibles omisiones |
 
-::: info Resultados pendientes
-Esta matriz se completará después de ejecutar los tres prompts con los mismos documentos del proyecto B y revisar las respuestas obtenidas.
+::: tip Interpretación de los resultados
 
-No se asignan valoraciones anticipadas.
+Los tres prompts generaron listas de verificación con diferentes niveles de detalle, organización y trazabilidad.
+
+El prompt profesional B3 produjo una lista más breve y priorizada, pero presentó una inconsistencia en la interpretación de una anotación de la bitácora.
+
+Esto demuestra que una mayor estructuración del prompt no garantiza respuestas correctas.
+
+**La utilidad profesional de la IA depende tanto de la calidad de las instrucciones como de la revisión crítica de sus resultados.**
+
 :::
 
-### Plantilla del instrumento de supervisión
+### Caso de análisis: inconsistencia en la interpretación documental
 
-| ID | Elemento | Requisito | Fuente | Verificación | Evidencia | Limitación | Estado |
-|---|---|---|---|---|---|---|---|
-| V-01 | Por identificar | Por extraer | Por localizar | Por definir | Por definir | Por evaluar | Pendiente |
-| V-02 | Por identificar | Por extraer | Por localizar | Por definir | Por definir | Por evaluar | Pendiente |
+Durante la evaluación de la respuesta generada con el prompt profesional B3, se identificó una inconsistencia relacionada con la interpretación de una anotación manuscrita de la bitácora de obra.
 
-**Esta tabla es una plantilla ilustrativa, no contiene hallazgos reales del proyecto.**
+**Primera interpretación:**
 
-El instrumento final deberá distinguir claramente entre:
+En la verificación V-04, la IA relacionó una anotación del folio 0005 con un castillo de concreto de dimensiones 10 × 12 cm, con refuerzo de 3/8" a cada 20 cm.
 
-- Información expresamente documentada.
-- Verificaciones propuestas por la IA.
-- Evidencias necesarias.
-- Limitaciones de la comprobación.
-- Estado registrado por el profesional.
+**Interpretación posterior:**
+
+En otra parte de la misma respuesta, la IA señaló que la anotación probablemente hacía referencia a una losa maciza de 10 y 12 cm de espesor, con refuerzo de 3/8" a cada 20 cm.
+
+**Problema identificado:**
+
+La respuesta presenta dos interpretaciones diferentes de una misma anotación documental.
+
+La segunda interpretación no demuestra por sí misma cuál es la correcta. Es necesario consultar la bitácora original y contrastarla con los planos y demás documentación técnica disponible.
+
+::: warning Pregunta para los participantes
+
+**¿Qué instrucciones adicionales incorporarían al prompt para reducir el riesgo de que la IA entregue interpretaciones contradictorias de un mismo documento?**
+
+:::
+
+**Aprendizaje esperado:** reconocer que una respuesta estructurada, con referencias y terminología técnica, puede contener inconsistencias que deben ser detectadas y verificadas por el profesional.
+
+
+### Instrumento de supervisión reutilizable
+
+Como producto de esta experiencia, se propone una plantilla de lista de verificación que el DRO puede adaptar a las características de cada proyecto.
+
+La plantilla contempla los siguientes campos:
+
+- ID de verificación.
+- Elemento o actividad.
+- Requisito documentado.
+- Fuente específica.
+- Verificación propuesta.
+- Tipo de evidencia requerida.
+- Limitaciones de la verificación.
+- Estado de revisión.
+
+La estructura de la lista de verificación presentada en esta sección puede utilizarse como referencia para preparar instrumentos de supervisión adaptados a las características de cada proyecto.
+
+Los resultados generados por IA deben revisarse antes de incorporarlos al instrumento de trabajo. En particular, las especificaciones ambiguas o contradictorias deben permanecer pendientes de validación documental.
+
+El instrumento debe distinguir entre información documentada, propuestas generadas por IA y observaciones verificadas por el profesional.
 
 ---
 
 # Actividad participativa guiada
 
-## 11. Construyamos un prompt profesional para el DRO
+## 11. Mejoremos un prompt profesional a partir de un error real
 
-**Duración:** 7 minutos.  
+**Duración:** 5 minutos.  
 **Modalidad:** Colectiva, asistida por el instructor.  
 **Herramienta:** ChatGPT.  
 **Recurso:** Plantilla interactiva del portal.  
-**Caso:** Documentación seleccionada del proyecto B.
+**Caso:** Documentación técnica y bitácora de obra del proyecto B.
+
+### Objetivo de la actividad
+
+Mejorar un prompt profesional previamente probado, incorporando instrucciones que permitan identificar contradicciones, interpretaciones inciertas y posibles omisiones en los resultados generados por IA.
 
 ### Situación inicial
 
-El instructor proyectará:
+El instructor mostrará la inconsistencia detectada en la respuesta B3:
 
-> Revisa estos documentos y dime si todo está bien.
+- **Verificación V-04:** interpretación de una anotación como especificación de un castillo.
+- **Análisis posterior:** interpretación de la misma anotación como posible especificación de una losa maciza.
 
-**Pregunta para los participantes:**
+Se solicitará a los participantes identificar el problema y proponer cómo mejorar las instrucciones proporcionadas a la IA.
 
-¿Qué le falta a esta instrucción para convertirse en una solicitud profesional útil?
+### Desarrollo paso a paso
 
-### Desarrollo de la actividad
 
-| Minuto | Paso | Participación |
+### Desarrollo paso a paso
+
+| Tiempo | Actividad | Participación |
 |---|---|---|
-| 12–13 | Identificar el problema | Detectar ambigüedades |
-| 13–14 | Precisar contexto y objetivo | Proponer el alcance |
-| 14–15 | Precisar entradas y tareas | Seleccionar prioridades |
-| 15–16 | Establecer restricciones | Identificar riesgos |
-| 16–17 | Definir formato y calidad | Proponer columnas y criterios |
-| 17–18 | Ejecutar | Observar la respuesta |
-| 18–19 | Evaluar | Revisar uno o dos puntos |
+| 0:00–1:00 | Presentar la inconsistencia identificada en B3 | Reconocer las dos interpretaciones contradictorias del folio 0005 |
+| 1:00–2:00 | Mostrar las seis sugerencias de validación disponibles en la plantilla | Proponer cuáles incorporar y justificar su elección |
+| 2:00–3:00 | Seleccionar las sugerencias acordadas y complementar las precisiones cuando sea necesario | Observar cómo se construye el prompt B3 mejorado |
+| 3:00–4:00 | Copiar y enviar el prompt mejorado en ChatGPT, con los documentos del proyecto B disponibles | Observar el procedimiento y, si la respuesta no está lista, utilizar el respaldo preparado |
+| 4:00–5:00 | Comparar el resultado disponible con la inconsistencia original | Identificar si la IA reconoce la ambigüedad, solicita verificación documental y evita afirmar interpretaciones no sustentadas |
 
-**Secuencia de trabajo:**
 
-**CONSTRUIR → EJECUTAR → EVALUAR**
+**Secuencia didáctica:**
 
-### Condiciones de ejecución
+**DETECTAR → MEJORAR → EJECUTAR → EVALUAR**
 
-Antes de iniciar el taller, el instructor deberá tener preparados:
 
-1. Los documentos seleccionados y anonimizados.
-2. La plantilla interactiva abierta.
-3. Una sesión de ChatGPT.
-4. Una respuesta real previamente generada como respaldo.
+### Instrucciones para el instructor
+
+1. Mostrar la inconsistencia identificada en la respuesta original B3, correspondiente al folio 0005 de la bitácora de obra.
+
+2. Abrir la plantilla interactiva `PromptDRO.vue` disponible en el portal y comprobar que contiene los ocho componentes del prompt B3 original.
+
+3. Presentar las seis sugerencias de validación preparadas en el componente 8, «Criterios de calidad».
+
+4. Solicitar a los participantes que seleccionen las sugerencias que consideran más útiles para prevenir interpretaciones contradictorias y expliquen brevemente sus razones.
+
+5. Marcar las sugerencias acordadas y hacer clic en «Incorporar sugerencias seleccionadas». Si los participantes proponen alguna instrucción adicional, incorporarla en el campo editable correspondiente.
+
+6. Mostrar cómo se integran las nuevas instrucciones al prompt B3, conservando sus ocho componentes originales.
+
+7. Copiar el prompt mejorado y enviarlo a ChatGPT utilizando los mismos documentos del proyecto B.
+
+8. Evaluar específicamente si la nueva respuesta identifica la ambigüedad del folio 0005, evita presentar interpretaciones contradictorias como hechos y señala la necesidad de contrastar la información con los documentos originales.
+
+9. Si la respuesta no se genera oportunamente, utilizar el resultado de respaldo preparado antes del taller.
+
+**Criterio de evaluación:** La mejora no se determina por la cantidad de verificaciones generadas, sino por la capacidad de la respuesta para reconocer incertidumbres, mantener la trazabilidad documental y evitar afirmaciones técnicas no sustentadas.
+
+
+
+### Preparación previa
+
+Antes del taller, el instructor deberá contar con:
+
+- **Documentación del proyecto B:** las 12 fotografías seleccionadas y anonimizadas, organizadas para su utilización durante la demostración.
+- **Conversación de ChatGPT preparada:** con los documentos adjuntos y disponible para ejecutar el prompt mejorado durante la actividad.
+- **Plantilla interactiva:** accesible desde el portal, con los ocho componentes originales del prompt B3 y las seis sugerencias de validación.
+- **Resultado original B3:** fragmento de la respuesta que contiene las interpretaciones contradictorias del folio 0005.
+- **Prompt mejorado de respaldo:** versión preparada previamente mediante la incorporación de sugerencias de validación.
+- **Respuesta de respaldo:** resultado generado y revisado previamente con ese prompt mejorado y los mismos documentos del proyecto B.
+
+**Uso del respaldo:** Si no es posible obtener una respuesta durante la actividad, el instructor mostrará el resultado previamente preparado, aclarando que corresponde a una ejecución anterior y especificando las mejoras utilizadas.
+
+El respaldo servirá para ilustrar cómo puede cambiar la respuesta al incorporar instrucciones de validación, sin atribuirle resultados a modificaciones que no hayan sido probadas.
+
+::: warning Consideración para la demostración
 
 La actividad se realizará desde la computadora del instructor, con pantalla proyectada.
 
+Si la generación de la respuesta tarda demasiado, se presenta un error de carga o se alcanza un límite de uso, se utilizará la respuesta de respaldo.
+
+La autoverificación de la IA no sustituye la revisión profesional ni garantiza la detección de todos los errores.
+
+:::
+
 ---
 
-## 12. Plantilla interactiva de ocho componentes {#plantilla-interactiva}
+## 12. Plantilla interactiva para mejorar el prompt B3 {#plantilla-interactiva}
 
-La siguiente herramienta permite construir un prompt profesional sin redactarlo desde cero.
+Esta herramienta permite mejorar el prompt profesional B3 utilizado en la experiencia anterior, incorporando instrucciones adicionales de validación documental.
+
+**No se parte de un prompt vacío:** la plantilla contiene los ocho componentes originales de B3, que se conservan como punto de partida para evaluar el efecto de las mejoras.
+
+### Elementos de la plantilla
 
 Cada componente contiene:
 
-- **Texto base:** instrucciones profesionales preparadas.
-- **Precisión del grupo:** campo editable para incorporar las aportaciones de los participantes.
+- **Texto base:** instrucciones originales del prompt B3.
+- **Precisión del grupo:** campo editable para incorporar aportaciones de los participantes.
 
-La vista previa integra ambos elementos y omite los campos vacíos.
+Adicionalmente, el componente 8, **Criterios de calidad**, incluye seis sugerencias de validación preparadas para apoyar la actividad participativa.
+
+Los participantes pueden seleccionar las sugerencias que consideren pertinentes e incorporarlas al prompt mediante el botón **«Incorporar sugerencias seleccionadas»**.
+
+La vista previa integra las instrucciones originales y las precisiones incorporadas, omitiendo los campos vacíos.
 
 <ClientOnly>
   <PromptDRO />
 </ClientOnly>
 
-### Cómo utilizar la plantilla
+### Cómo utilizar la plantilla durante el taller
 
-1. Revisa el texto base de cada componente.
-2. Incorpora las precisiones necesarias.
-3. Consulta la vista previa del prompt integrado.
-4. Selecciona **Copiar prompt**.
-5. Adjunta los documentos pertinentes en la herramienta de IA.
-6. Ejecuta la instrucción.
-7. Evalúa críticamente el resultado.
+1. Revisar el prompt B3 original y recordar la inconsistencia identificada en el folio 0005 de la bitácora de obra.
+2. Examinar las seis sugerencias de validación del componente 8.
+3. Seleccionar, con la participación del grupo, las sugerencias que puedan ayudar a reducir interpretaciones contradictorias.
+4. Hacer clic en **«Incorporar sugerencias seleccionadas»**.
+5. Agregar, cuando sea necesario, precisiones propuestas por los participantes en los campos editables.
+6. Revisar la vista previa para identificar las instrucciones adicionales incorporadas.
+7. Seleccionar **«Copiar prompt»**.
+8. Ejecutar el prompt mejorado en ChatGPT utilizando los mismos documentos del proyecto B.
+9. Evaluar si la respuesta reconoce la ambigüedad documental y evita presentar interpretaciones no verificadas como hechos.
 
-El botón **Restablecer plantilla** elimina las precisiones y recupera el estado inicial.
+El botón **«Restablecer plantilla»** elimina las precisiones adicionales, desmarca las sugerencias seleccionadas y recupera el prompt B3 original.
 
-La plantilla no envía automáticamente información a un sistema de IA.
+**Importante:** La plantilla no envía automáticamente información a ChatGPT. El instructor debe copiar el prompt y ejecutarlo en una conversación que tenga disponibles los documentos correspondientes.
 
----
+::: warning Alcance de la actividad
 
-# Kit digital del módulo 2
+Incorporar instrucciones de autoverificación puede ayudar a identificar inconsistencias, pero no garantiza respuestas correctas.
 
-## 13. Recursos reutilizables
-
-Los siguientes recursos están disponibles en esta página para consulta y reutilización:
-
-| Recurso | Ubicación |
-|---|---|
-| Estructura de ocho componentes | [Consultar](#componentes-prompt) |
-| Prompt de renovación arquitectónica | [Consultar y copiar](#prompt-arquitectura) |
-| Matriz de evaluación visual | [Consultar](#evaluacion-visual) |
-| Tres prompts para DRO | [Consultar y copiar](#prompts-dro) |
-| Plantilla de lista de verificación | [Consultar](#lista-verificacion) |
-| Plantilla interactiva | [Abrir herramienta](#plantilla-interactiva) |
-
-### Rúbrica breve para evaluar un prompt profesional
-
-| Criterio | Pregunta de evaluación |
-|---|---|
-| Claridad | ¿La tarea está definida sin ambigüedades importantes? |
-| Contexto | ¿Se describe suficientemente la situación profesional? |
-| Entradas | ¿Se identifican las fuentes de información? |
-| Restricciones | ¿Se delimitan las acciones y afirmaciones no permitidas? |
-| Formato | ¿Se especifica un producto útil? |
-| Trazabilidad | ¿Es posible localizar y verificar las fuentes? |
-| Calidad | ¿Existen criterios para evaluar la respuesta? |
-| Seguridad profesional | ¿Se reconoce la necesidad de revisión humana? |
-
-### Actividad autónoma
-
-Selecciona una tarea de tu práctica profesional relacionada con arquitectura o supervisión de obra.
-
-1. Redacta una solicitud inicial breve.
-2. Identifica qué información falta.
-3. Construye un prompt mediante los ocho componentes.
-4. Ejecútalo utilizando información que tengas autorización para compartir.
-5. Evalúa la respuesta mediante la rúbrica anterior.
-6. Ajusta el prompt si identificas omisiones o errores.
-7. Documenta qué cambió entre la primera respuesta y la versión ajustada.
-
-**Producto de la actividad:** prompt profesional, resultado obtenido y reflexión breve sobre su utilidad y limitaciones.
+El DRO debe contrastar las especificaciones y referencias con la documentación original antes de utilizar la lista de verificación como instrumento de supervisión.
+:::
 
 ---
 
-## 14. Limitaciones y verificación profesional
+## 13. Limitaciones y verificación profesional
 
 ### Un prompt estructurado no garantiza un resultado correcto
 
@@ -714,7 +793,7 @@ La aplicación de disposiciones normativas depende, entre otros factores, del mu
 
 ---
 
-## 15. Referencias
+## 14. Referencias
 
 [1] OpenAI, “Prompt engineering,” *OpenAI API Documentation*. Disponible en la documentación oficial de OpenAI.
 
@@ -728,19 +807,23 @@ La aplicación de disposiciones normativas depende, entre otros factores, del mu
 
 ---
 
-## 16. Estado de las demostraciones
+
+## 15. Estado de las demostraciones
 
 | Elemento | Estado |
 |---|---|
-| Fundamentos de ingeniería de prompts | Preparado |
+| Fundamentos de ingeniería de prompts | Preparados |
 | Estructura de ocho componentes | Preparada |
 | Prompt profesional de arquitectura | Preparado |
-| Resultado visual del módulo 2 | Pendiente de generar y validar |
-| Matriz de evaluación visual | Preparada, sin resultados |
-| Tres prompts para DRO | Preparados |
-| Respuestas reales de los tres prompts | Pendientes de ejecutar y validar |
-| Lista de verificación real | Pendiente de generar y revisar |
-| Plantilla interactiva | Implementada y probada localmente |
-| Actividad participativa | Diseñada |
+| Experiencia A: renovación visual de vivienda | Ejecutada; resultados visuales incorporados |
+| Matriz de evaluación visual | Preparada; pendiente de completar la evaluación documentada |
+| Tres prompts para DRO (B1, B2 y B3) | Preparados |
+| Respuestas reales de los tres prompts | Ejecutadas y comparadas |
+| Lista de verificación generada con B3 | Generada y revisada; se identificaron inconsistencias de interpretación documental |
+| Plantilla interactiva `PromptDRO.vue` | Implementada, compilada y probada localmente |
+| Actividad participativa de mejora del prompt | Diseñada y preparada; pendiente de realizarse con los asistentes |
+| Diapositivas de la experiencia B | Pendientes de revisión e integración |
 
-**Este módulo se encuentra en preparación. Las demostraciones pendientes se incorporarán después de su ejecución y validación.**
+**Estado general:** El módulo 2 cuenta con sus demostraciones principales desarrolladas y resultados documentados. Está pendiente completar la evaluación visual de la experiencia A, revisar la integración de las diapositivas y preparar la ejecución de la actividad participativa de la experiencia B.
+
+**Consideración metodológica:** Las listas de verificación generadas por IA son instrumentos preliminares de apoyo. Su contenido debe contrastarse con la documentación original y validarse mediante el juicio profesional del DRO.

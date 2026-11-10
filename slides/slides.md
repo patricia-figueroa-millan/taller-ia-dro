@@ -1297,7 +1297,7 @@ La siguiente experiencia aplica la ingeniería de prompts a una tarea profesiona
       Documentación
     </div>
     <div class="text-sm mt-3">
-      Planos y memoria de cálculo
+      Plano estructural, memoria de cálculo y bitácora de obra
     </div>
   </div>
 
@@ -1383,7 +1383,8 @@ y autorizados para su uso.
 </div>
 
 <div class="mt-4 text-center text-sm opacity-70">
-  Comparación de resultados reales pendiente de ejecución y validación.
+  Comparación realizada con los mismos 12 archivos del proyecto B.
+  Los resultados requieren verificación documental y criterio profesional.
 </div>
 
 <!--
@@ -1410,79 +1411,180 @@ Los resultados reales están pendientes.
 
 ---
 
-# Workshop · Construyamos un prompt profesional
+# Resultados reales · Comparación B1, B2 y B3
+
+<div class="grid grid-cols-3 gap-5 mt-8 text-center">
+
+  <div class="p-6 rounded-xl bg-gray-100 dark:bg-gray-800">
+    <div class="text-xl font-bold">B1 · Básico</div>
+    <div class="text-5xl font-bold mt-5">53</div>
+    <div class="text-sm mt-3">Puntos de verificación</div>
+    <div class="text-sm mt-4">7 áreas</div>
+  </div>
+
+  <div class="p-6 rounded-xl bg-blue-100 dark:bg-blue-900">
+    <div class="text-xl font-bold">B2 · Estructurado</div>
+    <div class="text-5xl font-bold mt-5">33</div>
+    <div class="text-sm mt-3">Puntos de verificación</div>
+    <div class="text-sm mt-4">5 áreas</div>
+  </div>
+
+  <div class="p-6 rounded-xl bg-green-100 dark:bg-green-900">
+    <div class="text-xl font-bold">B3 · Profesional</div>
+    <div class="text-5xl font-bold mt-5">12</div>
+    <div class="text-sm mt-3">Puntos priorizados</div>
+    <div class="text-sm mt-4">Con referencias documentales</div>
+  </div>
+
+</div>
+
+<div class="mt-8 p-5 rounded-xl border border-blue-400 text-center text-xl font-semibold">
+  Menos puntos no significa necesariamente mayor exactitud.
+</div>
+
+<div class="mt-5 text-center text-sm opacity-70">
+  Comparación descriptiva de tres respuestas generadas con los mismos 12 archivos.
+</div>
+
+---
+
+# B3 · ¿Qué sucede cuando la IA interpreta mal?
+
+<div class="grid grid-cols-2 gap-6 mt-8">
+
+  <div class="p-6 rounded-xl bg-gray-100 dark:bg-gray-800">
+    <div class="text-xl font-bold mb-4">Documento original</div>
+    <div class="font-semibold">Bitácora de obra · Folio 0005</div>
+    <div class="mt-4 text-base">
+      Contiene anotaciones manuscritas cuya interpretación
+      requiere contrastarse con los planos y demás documentos.
+    </div>
+  </div>
+
+  <div class="p-6 rounded-xl bg-red-100 dark:bg-red-900">
+    <div class="text-xl font-bold mb-4">Respuesta generada por B3</div>
+    <div class="text-base">
+      En un punto interpreta la anotación como especificación
+      de un castillo.
+    </div>
+    <div class="mt-4 text-base">
+      En otro, plantea una posible especificación de losa maciza.
+    </div>
+  </div>
+
+</div>
+
+<div class="mt-8 p-5 rounded-xl border border-orange-400 text-center text-xl font-semibold">
+  Una respuesta estructurada y aparentemente trazable también
+  puede contener interpretaciones contradictorias.
+</div>
+
+<div class="mt-5 text-center text-lg">
+  ¿Cómo modificaríamos el prompt para detectar y gestionar esta incertidumbre?
+</div>
+
+---
+
+# Actividad participativa · Mejoremos el prompt B3
 
 <div class="text-center text-lg mt-2">
-  Actividad colectiva · 7 minutos
+  Actividad colectiva · 5 minutos · Equipo del instructor
 </div>
+
 <div class="grid grid-cols-3 gap-5 mt-8">
+
   <div class="p-5 rounded-xl bg-blue-100 dark:bg-blue-900">
-    <div class="text-xl font-bold mb-4">1. CONSTRUIR</div>
+    <div class="text-xl font-bold mb-4">1. ANALIZAR</div>
     <div class="text-sm leading-7">
-      Identificar el problema.<br>
-      Precisar el objetivo.<br>
-      Definir entradas y tareas.<br>
-      Establecer restricciones.<br>
-      Elegir formato y calidad.
+      Revisar la inconsistencia del folio 0005.<br>
+      Identificar el riesgo de interpretación.<br>
+      Proponer criterios de validación.
     </div>
+    <div class="mt-4 font-semibold">Minutos 0–2</div>
   </div>
+
   <div class="p-5 rounded-xl bg-green-100 dark:bg-green-900">
-    <div class="text-xl font-bold mb-4">2. EJECUTAR</div>
+    <div class="text-xl font-bold mb-4">2. MEJORAR Y EJECUTAR</div>
     <div class="text-sm leading-7">
-      Copiar el prompt.<br>
-      Adjuntar documentos.<br>
-      Enviar a la IA.<br>
-      Observar el resultado.
+      Abrir la plantilla de VitePress.<br>
+      Seleccionar sugerencias de validación.<br>
+      Incorporarlas al prompt B3.<br>
+      Copiar y ejecutar con los mismos documentos.
     </div>
+    <div class="mt-4 font-semibold">Minutos 2–4</div>
   </div>
+
   <div class="p-5 rounded-xl bg-gray-100 dark:bg-gray-800">
     <div class="text-xl font-bold mb-4">3. EVALUAR</div>
     <div class="text-sm leading-7">
-      Revisar fuentes.<br>
-      Detectar omisiones.<br>
-      Identificar límites.<br>
-      Proponer ajustes.
+      Revisar el tratamiento del folio 0005.<br>
+      Comprobar si reconoce la incertidumbre.<br>
+      Identificar verificaciones pendientes.
     </div>
+    <div class="mt-4 font-semibold">Minutos 4–5</div>
   </div>
+
 </div>
 
-<div class="mt-8 text-center text-xl font-semibold">
-  La plantilla interactiva está disponible en el módulo 2 del portal.
+<div class="mt-7 text-center text-lg font-semibold">
+  Participantes proponen → Instructor integra → IA responde → Grupo evalúa
+</div>
+
+<div class="mt-4 text-center text-sm opacity-70">
+  Demostración guiada desde la computadora del instructor.
 </div>
 
 <!--
-DIAPOSITIVA 26 — DURACIÓN: 7 minutos
+ACTIVIDAD PARTICIPATIVA — DURACIÓN: 5 minutos
 
-ACTIVIDAD PARTICIPATIVA.
+OBJETIVO:
+Mejorar el prompt B3 para que la IA gestione explícitamente
+las interpretaciones ambiguas o contradictorias de la documentación.
 
-Minuto 1:
-Presentar la solicitud inicial y detectar ambigüedades.
+PREPARACIÓN:
+- Abrir la plantilla interactiva del módulo 2 en VitePress.
+- Tener disponibles los mismos 12 archivos utilizados con B3.
+- Tener preparada una respuesta de respaldo, por si la IA
+  no responde dentro del tiempo disponible.
 
-Minuto 2:
-Precisar contexto y objetivo.
+MINUTOS 0–2 | ANALIZAR
 
-Minuto 3:
-Precisar entradas y tareas.
+Mostrar la inconsistencia detectada en el folio 0005.
 
-Minuto 4:
-Establecer restricciones.
+Preguntar:
+¿Qué instrucciones adicionales ayudarían a evitar
+que una interpretación incierta se presente como un hecho?
 
-Minuto 5:
-Definir formato y criterios de calidad.
+Recuperar las propuestas de los participantes.
 
-Minuto 6:
-Copiar y ejecutar el prompt con documentos preparados.
+MINUTOS 2–4 | MEJORAR Y EJECUTAR
 
-Minuto 7:
-Evaluar uno o dos puntos del resultado.
+Abrir la plantilla interactiva proyectada.
 
-Utilizar la plantilla interactiva de VitePress.
+Mostrar las seis sugerencias de validación disponibles.
 
-Trabajar desde la computadora del instructor,
-con pantalla proyectada.
+Seleccionar las sugerencias acordadas con el grupo.
 
-Tener preparada una respuesta real de respaldo
-por si la herramienta no responde oportunamente.
+Pulsar "Incorporar sugerencias seleccionadas".
+
+Copiar el prompt mejorado y ejecutarlo en ChatGPT
+con los mismos documentos utilizados en B3.
+
+Si la respuesta tarda demasiado, utilizar el respaldo preparado.
+
+MINUTOS 4–5 | EVALUAR
+
+Localizar el tratamiento del folio 0005 en la nueva respuesta.
+
+Preguntar:
+¿La IA distingue hechos documentados de interpretaciones?
+¿Reconoce la incertidumbre?
+¿Indica qué debe verificarse y en qué fuente?
+
+CIERRE:
+Mejorar un prompt no garantiza eliminar errores.
+La respuesta debe contrastarse con las fuentes originales
+y validarse mediante el criterio profesional del DRO.
 -->
 
 ---
@@ -1491,8 +1593,19 @@ layout: center
 
 # ¿Qué aprendimos?
 
-<div class="text-xl mt-8 text-center">
-  Una instrucción profesional permite orientar el trabajo de la IA.
+<div class="text-lg mt-6">
+
+- Un prompt profesional debe responder a una tarea concreta.
+
+- Las instrucciones precisas ayudan a controlar el alcance,
+  pero no garantizan resultados correctos.
+
+- La IA puede transformar documentación técnica en instrumentos
+  preliminares de apoyo a la supervisión.
+
+- Las ambigüedades y contradicciones deben identificarse,
+  documentarse y verificarse en las fuentes originales.
+
 </div>
 
 <div class="mt-8 text-center text-xl font-semibold">
@@ -1510,21 +1623,45 @@ layout: center
 </div>
 
 <!--
-DIAPOSITIVA 27 — DURACIÓN: 1 minuto
+CIERRE DEL MÓDULO 2 — DURACIÓN: 1 minuto
 
-Cerrar el módulo.
+OBJETIVO:
+Recuperar los aprendizajes de las experiencias A y B.
 
-Recuperar los aprendizajes:
+EXPERIENCIA A — ARQUITECTURA
 
-1. Un prompt debe corresponder a una tarea profesional.
-2. Las restricciones deben ser coherentes con el objetivo.
-3. La IA puede apoyar la organización de información.
-4. Los resultados deben evaluarse.
-5. La responsabilidad técnica permanece en el profesional.
+La IA permitió explorar una renovación estética de una vivienda.
+
+Sin embargo, los resultados mostraron que una propuesta
+visualmente atractiva puede introducir modificaciones
+arquitectónicas no solicitadas.
+
+EXPERIENCIA B — DRO
+
+La IA permitió organizar información documental y generar
+listas preliminares de verificación para supervisión.
+
+La comparación B1, B2 y B3 mostró diferencias en extensión,
+organización y trazabilidad de los resultados.
+
+El análisis de B3 también permitió identificar interpretaciones
+contradictorias de una anotación del folio 0005.
+
+APRENDIZAJE CENTRAL:
+
+Un prompt profesional mejora la orientación de la tarea,
+pero no garantiza la exactitud de la respuesta.
+
+La evaluación y validación de los resultados forman parte
+del proceso de trabajo con IA.
+
+CIERRE:
+
+IA propone → Profesional verifica → Profesional decide.
 
 TRANSICIÓN:
 
-En el siguiente módulo utilizaremos la IA
-como apoyo para consultar y analizar normativa,
-sin sustituir la verificación en fuentes oficiales.
+En el módulo 3 abordaremos la revisión documental y
+la consulta normativa asistida por IA, utilizando
+fuentes que deberán verificarse.
 -->
