@@ -1665,3 +1665,95 @@ En el módulo 3 abordaremos la revisión documental y
 la consulta normativa asistida por IA, utilizando
 fuentes que deberán verificarse.
 -->
+
+
+---
+layout: section
+---
+
+# Módulo 3
+## Revisión documental y consulta normativa con IA
+
+**30 minutos**
+
+De los documentos a las decisiones de verificación.
+
+---
+
+# ¿Qué documentación utilizaremos?
+
+## Proyecto B · Vivienda residencial
+
+- Plano estructural y notas técnicas.
+- Extracto de memoria de cálculo.
+- Portada y cinco folios de bitácora de obra.
+- Reglamento de Construcción para el Municipio de Colima.
+
+**13 archivos en total: 12 imágenes + 1 documento Word.**
+
+> El reglamento adjunto identifica reformas hasta octubre de 2022. Su vigencia posterior requiere comprobación.
+
+---
+
+# Demostración 1 · Revisión integral
+
+## Identificar y priorizar
+
+**13 archivos → Prompt 1 → Matriz preliminar**
+
+Aspectos identificados durante la prueba:
+
+1. Autorización y expediente.
+2. Registro de supervisión.
+3. Resistencia del concreto.
+4. Criterios de análisis estructural.
+5. Correspondencia entre ejecución y diseño.
+
+**Instructor:** ejecutar el prompt 1 disponible en VitePress.
+
+---
+
+# Demostración 2 · Verificación específica
+
+## Profundizar en un aspecto
+
+**Matriz preliminar → Prompt 2 → Verificación normativa**
+
+**Ejemplo: resistencia del concreto**
+
+- Plano E1: especificación general de 250 kg/cm² para elementos estructurales.
+- Bitácora: diferentes valores aparentes de resistencia.
+- Reglamento: artículo 87, fracción I, inciso d), sobre documentación estructural.
+- Resultado: pendiente de verificación.
+
+**Una diferencia aparente no constituye automáticamente un incumplimiento.**
+
+**Instructor:** ejecutar el prompt 2 en la misma conversación.
+
+---
+
+# Evaluación crítica · ¿Qué debe verificar el DRO?
+
+1. ¿La IA interpretó correctamente las anotaciones manuscritas?
+2. ¿El artículo citado existe y realmente respalda la interpretación?
+3. ¿Qué documentos, pruebas o inspecciones hacen falta?
+
+**Atención al folio 0005:** su lectura ha producido interpretaciones distintas.
+
+> La IA puede identificar relaciones, pero sus conclusiones requieren validación profesional.
+
+---
+
+# Del análisis documental a la supervisión
+
+## ¿Cuál es el valor profesional?
+
+- Organizar información de distintas fuentes.
+- Identificar posibles discrepancias.
+- Localizar referencias normativas.
+- Priorizar verificaciones.
+- Documentar la evidencia faltante.
+
+### La IA identifica y organiza; el DRO verifica y decide.
+
+**Siguiente módulo:** supervisión multimodal con planos y fotografías de obra.
